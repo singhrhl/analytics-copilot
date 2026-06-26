@@ -1,4 +1,12 @@
+#env
 .env
 
+#backend
 backend/backend-env/
+**/__pycache__/
+
+#frontend
 frontend/frontend-env/
+
+#personal read file
+analytics_copilot_handoff.md
