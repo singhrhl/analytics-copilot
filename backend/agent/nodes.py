@@ -5,6 +5,7 @@ from agent.llm import check_ambiguity_llm, generate_clarification_question,gener
 from agent.sql_guard import validate_sql_guard
 from agent.db import execute_sql
 from agent.validation import validate_result
+from langgraph.types import interrupt
 
 # NODE: starting node for MODE A/B Decision
 def route_question(state: AgentState) -> dict:
@@ -40,10 +41,11 @@ def check_ambiguity(state: AgentState) -> dict:
 # NODE: process clerification questions response from user llm
 def clarify(state: AgentState) -> dict:
     clarifying_q = generate_clarification_question(state.user_question, context=state.schema_context)
+    answer = interrupt(clarifying_q)
     return {
         "clarification_question": clarifying_q,
-        "final_answer": clarifying_q,
-        "status": "clarification_needed",
+        "clarification_answer": answer,
+        "ambiguity_status": "clear",
     }
     
 # NODE: generate sql function when agent is sure (clerification=true)

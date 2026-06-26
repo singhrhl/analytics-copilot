@@ -1,5 +1,6 @@
 # agent/graph.py
 from langgraph.graph import StateGraph, END
+from langgraph.checkpoint.memory import MemorySaver
 from agent.graph_state import AgentState
 from agent.nodes import (
     route_question,
@@ -52,7 +53,7 @@ def build_graph():
         },
     )
 
-    graph.add_edge("clarify", END)
+    graph.add_edge("clarify", "generate_sql")
 
     graph.add_edge("generate_sql", "validate_sql_guard")
 
@@ -80,4 +81,5 @@ def build_graph():
 
     graph.add_edge("respond", END)
 
-    return graph.compile()
+    checkpointer = MemorySaver()
+    return graph.compile(checkpointer=checkpointer)
