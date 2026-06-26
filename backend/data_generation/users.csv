@@ -1,0 +1,2001 @@
+user_id,signup_date,grade,device,curriculum,target_exam,is_test_account
+1,2025-02-01,10,web,NEET,Boards,False
+2,2025-09-08,8,android,State Board,Boards,False
+3,2025-03-24,6,web,NEET,JEE,False
+4,2025-03-24,9,android,JEE,NEET,False
+5,2025-05-03,11,android,CBSE,NEET,False
+6,2025-01-02,12,android,JEE,Boards,False
+7,2025-12-07,11,android,CBSE,undeclared,True
+8,2025-05-20,12,android,CBSE,Boards,False
+9,2025-03-07,8,android,CBSE,undeclared,True
+10,2025-03-23,11,android,JEE,Boards,False
+11,2025-08-08,12,ios,State Board,undeclared,False
+12,2025-04-09,12,android,CBSE,JEE,False
+13,2025-03-01,10,android,NEET,NEET,False
+14,2025-12-06,11,android,NEET,JEE,False
+15,2025-09-11,12,android,CBSE,undeclared,False
+16,2025-02-07,11,ios,CBSE,NEET,False
+17,2025-04-11,12,ios,CBSE,JEE,False
+18,2025-06-13,10,ios,JEE,undeclared,False
+19,2025-10-28,8,ios,NEET,Boards,False
+20,2025-02-09,10,android,ICSE,JEE,False
+21,2025-11-24,6,ios,CBSE,Boards,False
+22,2025-02-04,9,android,NEET,JEE,False
+23,2025-09-13,9,android,State Board,undeclared,False
+24,2025-07-10,12,web,CBSE,undeclared,False
+25,2025-03-20,12,web,CBSE,JEE,False
+26,2025-07-12,10,web,State Board,JEE,False
+27,2025-11-23,10,android,CBSE,NEET,False
+28,2025-12-22,10,android,NEET,NEET,False
+29,2025-03-10,12,android,ICSE,NEET,False
+30,2025-03-28,6,ios,JEE,JEE,False
+31,2025-12-04,12,android,CBSE,NEET,False
+32,2025-10-15,9,ios,NEET,JEE,False
+33,2025-02-12,10,ios,JEE,Boards,False
+34,2025-08-12,12,android,CBSE,JEE,False
+35,2025-09-09,11,android,JEE,JEE,False
+36,2025-02-22,8,ios,ICSE,undeclared,False
+37,2025-03-20,10,android,State Board,undeclared,False
+38,2025-03-18,11,web,JEE,Boards,False
+39,2025-04-06,7,web,State Board,Boards,False
+40,2025-10-09,10,ios,State Board,undeclared,False
+41,2025-08-21,11,android,CBSE,undeclared,False
+42,2025-02-08,6,android,JEE,JEE,False
+43,2025-09-27,11,ios,JEE,JEE,False
+44,2025-10-02,9,android,NEET,Boards,False
+45,2025-03-02,11,ios,CBSE,NEET,False
+46,2025-09-13,9,web,ICSE,undeclared,False
+47,2025-03-07,12,android,JEE,NEET,False
+48,2025-03-19,11,android,CBSE,Boards,False
+49,2025-01-11,12,web,State Board,NEET,False
+50,2025-11-16,12,android,State Board,undeclared,False
+51,2025-02-21,9,android,State Board,NEET,False
+52,2025-02-09,11,web,JEE,Boards,False
+53,2025-11-24,11,web,CBSE,Boards,False
+54,2025-03-09,11,ios,NEET,NEET,False
+55,2025-07-14,12,web,State Board,undeclared,False
+56,2025-10-13,11,ios,JEE,Boards,False
+57,2025-08-05,12,android,ICSE,JEE,False
+58,2025-08-03,6,android,JEE,JEE,False
+59,2025-02-28,6,android,NEET,NEET,False
+60,2025-02-21,11,ios,CBSE,Boards,False
+61,2025-10-22,7,android,JEE,Boards,False
+62,2025-03-03,12,android,CBSE,Boards,False
+63,2025-10-20,10,android,CBSE,undeclared,False
+64,2025-03-17,11,android,CBSE,JEE,False
+65,2025-12-18,11,ios,JEE,JEE,False
+66,2025-03-01,11,ios,JEE,NEET,False
+67,2025-01-04,10,ios,CBSE,JEE,False
+68,2025-02-18,6,web,NEET,NEET,False
+69,2025-04-25,10,android,CBSE,NEET,False
+70,2025-09-04,11,ios,CBSE,NEET,False
+71,2025-02-06,11,web,JEE,JEE,False
+72,2025-08-24,11,android,JEE,undeclared,False
+73,2025-11-09,10,ios,ICSE,Boards,False
+74,2025-02-25,10,web,State Board,JEE,False
+75,2025-02-04,8,android,CBSE,Boards,False
+76,2025-03-10,10,web,CBSE,undeclared,False
+77,2025-10-17,8,ios,JEE,undeclared,False
+78,2025-10-05,12,android,CBSE,Boards,False
+79,2025-04-06,12,android,ICSE,Boards,False
+80,2025-10-25,12,web,ICSE,Boards,False
+81,2025-04-01,8,web,JEE,undeclared,False
+82,2025-02-16,12,android,CBSE,undeclared,False
+83,2025-09-12,10,web,State Board,Boards,True
+84,2025-10-27,10,android,CBSE,Boards,False
+85,2025-01-08,12,ios,CBSE,NEET,False
+86,2025-02-19,11,android,State Board,NEET,False
+87,2025-02-03,8,ios,JEE,JEE,False
+88,2025-02-27,11,android,NEET,Boards,False
+89,2025-10-25,7,web,ICSE,NEET,False
+90,2025-02-05,12,web,NEET,NEET,False
+91,2025-02-16,12,ios,ICSE,undeclared,False
+92,2025-02-06,10,android,ICSE,JEE,False
+93,2025-12-28,8,ios,NEET,Boards,False
+94,2025-12-07,10,android,State Board,JEE,False
+95,2025-07-25,6,web,CBSE,undeclared,False
+96,2025-07-07,12,android,JEE,undeclared,False
+97,2025-08-13,11,ios,ICSE,Boards,False
+98,2025-11-21,12,android,CBSE,undeclared,False
+99,2025-06-17,10,ios,CBSE,JEE,False
+100,2025-12-08,10,ios,CBSE,undeclared,False
+101,2025-09-11,11,android,CBSE,undeclared,False
+102,2025-10-18,8,web,NEET,undeclared,True
+103,2025-01-08,11,android,State Board,undeclared,False
+104,2025-02-23,6,android,NEET,undeclared,True
+105,2025-10-08,11,android,State Board,undeclared,False
+106,2025-11-02,10,android,CBSE,JEE,False
+107,2025-10-03,12,web,State Board,Boards,False
+108,2025-02-09,12,web,CBSE,NEET,False
+109,2025-09-07,12,ios,CBSE,Boards,False
+110,2025-10-24,10,android,JEE,Boards,False
+111,2025-11-19,11,web,JEE,Boards,False
+112,2025-09-08,10,android,CBSE,Boards,False
+113,2025-04-26,11,android,CBSE,JEE,False
+114,2025-04-04,11,android,ICSE,undeclared,False
+115,2025-11-14,11,ios,ICSE,Boards,False
+116,2025-03-14,12,android,State Board,NEET,False
+117,2025-09-24,10,web,ICSE,NEET,False
+118,2025-02-21,9,android,CBSE,JEE,False
+119,2025-11-04,8,ios,CBSE,NEET,False
+120,2025-01-24,10,ios,CBSE,JEE,False
+121,2025-02-28,8,android,CBSE,JEE,False
+122,2025-09-07,10,android,ICSE,Boards,False
+123,2025-11-15,6,ios,JEE,JEE,False
+124,2025-10-06,12,android,CBSE,undeclared,False
+125,2025-09-08,9,android,ICSE,NEET,False
+126,2025-03-03,10,android,NEET,JEE,False
+127,2025-02-28,11,web,JEE,Boards,False
+128,2025-04-04,10,android,CBSE,JEE,False
+129,2025-02-18,6,android,CBSE,NEET,False
+130,2025-06-03,12,ios,JEE,Boards,False
+131,2025-05-28,7,android,JEE,Boards,False
+132,2025-08-14,8,android,ICSE,Boards,False
+133,2025-02-07,10,web,JEE,JEE,False
+134,2025-03-02,8,android,CBSE,JEE,False
+135,2025-05-01,8,web,CBSE,Boards,False
+136,2025-11-09,12,android,ICSE,undeclared,False
+137,2025-11-26,12,android,CBSE,Boards,False
+138,2025-03-14,11,ios,CBSE,Boards,False
+139,2025-02-24,10,android,JEE,JEE,False
+140,2025-06-18,11,android,JEE,JEE,False
+141,2025-02-16,11,android,CBSE,JEE,False
+142,2025-09-10,12,android,NEET,JEE,False
+143,2025-04-02,12,ios,ICSE,NEET,False
+144,2025-10-18,12,web,State Board,JEE,False
+145,2025-08-11,12,android,CBSE,Boards,False
+146,2025-02-19,12,android,NEET,JEE,False
+147,2025-04-28,8,web,JEE,Boards,False
+148,2025-04-02,12,android,NEET,NEET,False
+149,2025-03-03,10,android,NEET,Boards,False
+150,2025-09-03,12,android,JEE,undeclared,False
+151,2025-02-22,8,web,JEE,NEET,False
+152,2025-10-13,12,ios,JEE,undeclared,False
+153,2025-01-19,8,android,CBSE,Boards,False
+154,2025-10-20,11,ios,State Board,NEET,False
+155,2025-10-03,8,web,CBSE,NEET,True
+156,2025-09-19,8,android,NEET,Boards,False
+157,2025-03-11,11,android,CBSE,NEET,False
+158,2025-11-07,12,ios,ICSE,NEET,False
+159,2025-01-11,8,ios,JEE,Boards,False
+160,2025-11-13,12,web,JEE,Boards,False
+161,2025-05-21,11,android,JEE,Boards,False
+162,2025-02-11,11,web,State Board,NEET,False
+163,2025-11-03,12,web,CBSE,undeclared,False
+164,2025-04-20,11,ios,ICSE,JEE,True
+165,2025-07-04,12,android,CBSE,NEET,False
+166,2025-05-07,12,android,CBSE,Boards,False
+167,2025-06-05,9,android,CBSE,JEE,False
+168,2025-09-03,10,web,ICSE,Boards,False
+169,2025-02-12,6,ios,CBSE,undeclared,False
+170,2025-08-15,10,android,State Board,Boards,False
+171,2025-03-23,7,ios,CBSE,undeclared,False
+172,2025-02-26,9,android,ICSE,Boards,False
+173,2025-04-01,12,android,JEE,NEET,False
+174,2025-11-18,11,android,CBSE,undeclared,False
+175,2025-01-22,10,android,JEE,NEET,False
+176,2025-03-05,8,ios,JEE,JEE,False
+177,2025-10-04,9,ios,CBSE,JEE,False
+178,2025-03-05,8,ios,CBSE,JEE,False
+179,2025-09-20,11,web,NEET,NEET,False
+180,2025-02-11,9,android,State Board,JEE,False
+181,2025-05-21,9,android,CBSE,Boards,False
+182,2025-04-17,12,web,CBSE,JEE,False
+183,2025-08-28,11,android,JEE,NEET,False
+184,2025-02-21,10,android,State Board,Boards,False
+185,2025-05-09,12,android,State Board,Boards,False
+186,2025-03-11,6,android,JEE,Boards,True
+187,2025-03-21,8,web,State Board,Boards,False
+188,2025-08-06,9,android,State Board,JEE,False
+189,2025-03-18,9,ios,JEE,undeclared,False
+190,2025-08-18,6,android,State Board,undeclared,False
+191,2025-05-03,11,ios,CBSE,undeclared,True
+192,2025-10-23,10,android,CBSE,JEE,False
+193,2025-03-18,7,ios,CBSE,NEET,False
+194,2025-06-12,10,ios,CBSE,Boards,True
+195,2025-01-05,11,web,NEET,JEE,False
+196,2025-08-02,9,ios,CBSE,NEET,False
+197,2025-10-26,10,ios,CBSE,JEE,False
+198,2025-10-02,10,ios,ICSE,JEE,False
+199,2025-04-07,12,ios,CBSE,Boards,False
+200,2025-05-22,7,web,CBSE,undeclared,False
+201,2025-10-25,9,android,State Board,Boards,False
+202,2025-06-28,11,ios,NEET,JEE,False
+203,2025-09-20,9,web,State Board,JEE,False
+204,2025-01-08,12,android,JEE,undeclared,False
+205,2025-11-26,11,android,State Board,undeclared,False
+206,2025-10-14,10,web,NEET,NEET,False
+207,2025-02-24,6,ios,CBSE,JEE,True
+208,2025-04-26,11,android,NEET,JEE,False
+209,2025-11-26,11,ios,CBSE,Boards,False
+210,2025-01-24,11,android,CBSE,undeclared,False
+211,2025-12-09,12,android,State Board,Boards,False
+212,2025-09-23,10,ios,ICSE,NEET,False
+213,2025-05-28,12,web,NEET,NEET,False
+214,2025-03-16,11,android,CBSE,NEET,True
+215,2025-12-27,9,android,CBSE,JEE,False
+216,2025-11-12,10,android,JEE,JEE,False
+217,2025-11-26,12,android,ICSE,undeclared,False
+218,2025-03-08,10,ios,CBSE,undeclared,False
+219,2025-03-07,12,ios,JEE,Boards,True
+220,2025-04-09,8,android,CBSE,Boards,False
+221,2025-12-25,7,web,State Board,undeclared,False
+222,2025-02-21,8,android,NEET,Boards,False
+223,2025-08-22,12,android,CBSE,Boards,False
+224,2025-02-18,11,android,State Board,JEE,False
+225,2025-09-01,12,web,State Board,undeclared,False
+226,2025-03-09,11,android,ICSE,NEET,False
+227,2025-09-09,11,android,CBSE,JEE,False
+228,2025-08-20,7,web,ICSE,NEET,True
+229,2025-03-24,12,android,JEE,Boards,False
+230,2025-11-14,12,ios,JEE,undeclared,False
+231,2025-09-17,11,web,JEE,Boards,False
+232,2025-01-19,12,android,State Board,undeclared,False
+233,2025-02-02,12,android,CBSE,Boards,False
+234,2025-03-01,12,web,JEE,JEE,False
+235,2025-09-26,11,web,JEE,JEE,False
+236,2025-07-24,11,ios,CBSE,Boards,False
+237,2025-02-24,12,android,JEE,undeclared,False
+238,2025-09-12,12,ios,CBSE,NEET,False
+239,2025-01-22,7,ios,CBSE,Boards,False
+240,2025-02-20,12,web,State Board,Boards,False
+241,2025-06-28,12,android,CBSE,NEET,False
+242,2025-12-10,12,ios,ICSE,JEE,False
+243,2025-09-22,10,android,CBSE,Boards,False
+244,2025-03-13,9,android,JEE,Boards,False
+245,2025-05-18,12,android,ICSE,undeclared,False
+246,2025-04-14,11,android,CBSE,undeclared,False
+247,2025-09-13,12,android,CBSE,JEE,False
+248,2025-03-06,10,web,ICSE,undeclared,False
+249,2025-10-10,12,ios,NEET,undeclared,False
+250,2025-09-27,11,android,CBSE,undeclared,False
+251,2025-09-10,12,android,CBSE,JEE,True
+252,2025-08-26,10,android,ICSE,JEE,False
+253,2025-01-21,9,ios,CBSE,NEET,False
+254,2025-03-15,7,android,ICSE,Boards,False
+255,2025-06-07,11,web,NEET,JEE,False
+256,2025-06-26,8,android,State Board,JEE,False
+257,2025-04-26,11,ios,JEE,JEE,False
+258,2025-02-22,11,android,ICSE,JEE,False
+259,2025-10-17,10,android,JEE,Boards,False
+260,2025-09-20,9,android,CBSE,Boards,False
+261,2025-09-27,6,web,CBSE,Boards,False
+262,2025-10-08,12,ios,NEET,NEET,False
+263,2025-05-08,7,web,JEE,undeclared,False
+264,2025-02-05,11,android,NEET,JEE,False
+265,2025-12-08,9,android,State Board,JEE,True
+266,2025-06-20,10,android,NEET,Boards,False
+267,2025-12-03,11,ios,CBSE,undeclared,False
+268,2025-01-21,11,android,JEE,JEE,False
+269,2025-10-23,9,android,State Board,Boards,False
+270,2025-01-16,10,android,ICSE,undeclared,False
+271,2025-06-05,12,ios,ICSE,Boards,False
+272,2025-08-01,12,web,ICSE,JEE,False
+273,2025-10-28,12,android,JEE,Boards,False
+274,2025-03-04,8,ios,State Board,JEE,False
+275,2025-03-08,12,android,State Board,NEET,False
+276,2025-08-23,12,android,JEE,NEET,False
+277,2025-09-02,8,android,State Board,JEE,False
+278,2025-05-28,10,ios,CBSE,undeclared,False
+279,2025-04-05,9,android,CBSE,Boards,False
+280,2025-09-22,12,android,CBSE,Boards,False
+281,2025-09-18,8,android,CBSE,Boards,False
+282,2025-11-25,10,web,NEET,Boards,False
+283,2025-07-20,9,android,CBSE,JEE,False
+284,2025-11-17,12,android,CBSE,NEET,False
+285,2025-12-18,10,android,CBSE,JEE,False
+286,2025-11-06,12,android,State Board,Boards,False
+287,2025-02-16,10,android,ICSE,Boards,False
+288,2025-09-25,6,android,NEET,JEE,False
+289,2025-11-21,12,android,JEE,NEET,False
+290,2025-09-25,8,ios,NEET,undeclared,False
+291,2025-01-21,10,ios,State Board,Boards,False
+292,2025-09-15,12,ios,JEE,JEE,False
+293,2025-12-10,10,ios,CBSE,Boards,False
+294,2025-10-11,6,web,ICSE,undeclared,False
+295,2025-04-18,11,ios,State Board,NEET,False
+296,2025-05-05,11,web,NEET,Boards,False
+297,2025-04-23,12,android,JEE,JEE,False
+298,2025-05-07,10,android,JEE,NEET,False
+299,2025-08-14,9,android,CBSE,JEE,False
+300,2025-11-15,11,ios,ICSE,NEET,False
+301,2025-04-07,11,android,CBSE,NEET,False
+302,2025-10-13,10,ios,JEE,Boards,False
+303,2025-03-19,12,ios,State Board,JEE,False
+304,2025-11-01,6,ios,State Board,JEE,False
+305,2025-06-25,7,web,ICSE,JEE,False
+306,2025-07-16,9,android,CBSE,undeclared,False
+307,2025-05-12,10,ios,NEET,JEE,True
+308,2025-07-13,8,android,JEE,JEE,False
+309,2025-12-27,11,android,JEE,JEE,False
+310,2025-09-24,10,web,JEE,JEE,False
+311,2025-03-26,12,ios,NEET,undeclared,False
+312,2025-11-08,9,ios,ICSE,undeclared,False
+313,2025-10-09,10,android,NEET,JEE,False
+314,2025-05-01,10,ios,CBSE,Boards,False
+315,2025-03-22,11,android,NEET,undeclared,False
+316,2025-07-13,7,android,JEE,Boards,False
+317,2025-12-27,9,android,JEE,NEET,False
+318,2025-09-05,8,ios,ICSE,NEET,False
+319,2025-10-18,11,web,CBSE,JEE,False
+320,2025-11-13,11,android,CBSE,JEE,True
+321,2025-02-22,9,android,CBSE,NEET,False
+322,2025-07-21,11,android,NEET,JEE,True
+323,2025-04-28,12,ios,JEE,NEET,False
+324,2025-10-02,11,web,JEE,Boards,False
+325,2025-03-11,10,android,JEE,undeclared,False
+326,2025-05-11,11,android,JEE,JEE,False
+327,2025-11-13,12,android,JEE,Boards,False
+328,2025-11-27,9,android,CBSE,undeclared,False
+329,2025-02-27,11,web,JEE,Boards,False
+330,2025-09-01,12,android,NEET,Boards,False
+331,2025-02-02,6,android,CBSE,NEET,False
+332,2025-05-12,12,ios,CBSE,NEET,False
+333,2025-12-03,11,android,State Board,NEET,False
+334,2025-10-21,12,android,State Board,JEE,False
+335,2025-10-01,10,web,State Board,undeclared,True
+336,2025-09-07,10,android,ICSE,JEE,False
+337,2025-02-20,10,web,JEE,undeclared,False
+338,2025-10-05,12,web,ICSE,Boards,False
+339,2025-04-04,8,android,ICSE,JEE,False
+340,2025-07-07,7,android,CBSE,undeclared,False
+341,2025-05-09,12,android,CBSE,Boards,False
+342,2025-09-06,8,ios,CBSE,Boards,False
+343,2025-01-24,8,android,NEET,NEET,False
+344,2025-03-25,12,android,JEE,undeclared,False
+345,2025-09-10,8,android,CBSE,JEE,False
+346,2025-09-01,7,android,State Board,undeclared,False
+347,2025-02-19,10,ios,JEE,NEET,False
+348,2025-05-13,12,android,CBSE,NEET,False
+349,2025-05-23,12,ios,NEET,JEE,False
+350,2025-02-19,10,android,CBSE,Boards,False
+351,2025-12-21,11,android,CBSE,JEE,False
+352,2025-07-23,12,web,ICSE,JEE,False
+353,2025-02-28,10,web,CBSE,NEET,False
+354,2025-04-26,10,ios,ICSE,NEET,False
+355,2025-10-19,10,ios,State Board,undeclared,False
+356,2025-10-12,10,ios,ICSE,JEE,False
+357,2025-09-22,6,web,ICSE,Boards,False
+358,2025-07-17,12,ios,JEE,JEE,False
+359,2025-01-01,8,ios,JEE,Boards,False
+360,2025-01-27,7,ios,CBSE,JEE,False
+361,2025-04-14,12,ios,ICSE,JEE,False
+362,2025-02-21,12,ios,CBSE,JEE,False
+363,2025-02-15,11,ios,CBSE,JEE,False
+364,2025-04-14,12,android,NEET,Boards,False
+365,2025-09-17,9,android,JEE,Boards,False
+366,2025-03-09,11,android,State Board,Boards,False
+367,2025-10-18,12,ios,JEE,Boards,False
+368,2025-03-15,11,android,CBSE,undeclared,False
+369,2025-11-24,10,android,ICSE,Boards,False
+370,2025-09-11,9,android,CBSE,undeclared,False
+371,2025-11-27,9,web,State Board,undeclared,False
+372,2025-10-09,9,ios,ICSE,undeclared,False
+373,2025-12-08,12,ios,CBSE,Boards,False
+374,2025-10-19,12,android,CBSE,JEE,False
+375,2025-10-13,12,android,JEE,undeclared,False
+376,2025-08-16,11,ios,JEE,JEE,False
+377,2025-02-06,11,web,JEE,Boards,False
+378,2025-12-12,10,android,CBSE,Boards,False
+379,2025-08-11,7,android,NEET,JEE,False
+380,2025-10-20,11,ios,CBSE,NEET,False
+381,2025-10-09,11,android,NEET,JEE,False
+382,2025-02-17,9,web,ICSE,NEET,False
+383,2025-05-03,10,web,State Board,NEET,False
+384,2025-05-14,11,web,JEE,NEET,False
+385,2025-10-25,11,android,JEE,NEET,False
+386,2025-02-16,7,ios,ICSE,Boards,False
+387,2025-09-16,11,ios,JEE,Boards,False
+388,2025-02-01,12,android,NEET,NEET,False
+389,2025-10-08,7,android,NEET,Boards,False
+390,2025-05-08,11,android,CBSE,NEET,False
+391,2025-12-19,7,android,JEE,Boards,False
+392,2025-10-18,12,ios,ICSE,Boards,False
+393,2025-08-14,8,android,NEET,NEET,False
+394,2025-01-18,11,android,ICSE,NEET,False
+395,2025-03-23,6,web,CBSE,Boards,False
+396,2025-10-10,12,android,ICSE,undeclared,False
+397,2025-02-04,9,web,ICSE,NEET,False
+398,2025-10-11,7,ios,ICSE,NEET,False
+399,2025-10-18,12,android,JEE,JEE,False
+400,2025-03-23,11,web,CBSE,JEE,False
+401,2025-03-07,9,android,State Board,JEE,False
+402,2025-06-09,12,android,NEET,JEE,False
+403,2025-07-25,6,android,State Board,JEE,False
+404,2025-09-10,10,android,State Board,JEE,False
+405,2025-05-27,12,ios,State Board,JEE,False
+406,2025-09-08,9,ios,State Board,JEE,False
+407,2025-08-10,9,ios,ICSE,undeclared,False
+408,2025-03-18,10,android,CBSE,JEE,True
+409,2025-11-02,12,ios,JEE,JEE,False
+410,2025-02-18,11,android,NEET,Boards,False
+411,2025-10-05,10,android,CBSE,undeclared,False
+412,2025-07-25,11,android,ICSE,Boards,False
+413,2025-01-28,7,android,NEET,NEET,False
+414,2025-04-10,12,android,CBSE,JEE,True
+415,2025-11-15,12,android,CBSE,undeclared,False
+416,2025-10-02,12,android,ICSE,undeclared,False
+417,2025-07-28,6,android,ICSE,undeclared,False
+418,2025-04-27,10,android,JEE,undeclared,False
+419,2025-03-16,12,web,CBSE,Boards,False
+420,2025-04-21,12,ios,JEE,Boards,False
+421,2025-10-05,12,android,CBSE,Boards,False
+422,2025-12-19,10,web,State Board,JEE,False
+423,2025-09-03,8,android,CBSE,undeclared,False
+424,2025-11-04,8,android,JEE,JEE,False
+425,2025-12-14,12,android,State Board,NEET,False
+426,2025-05-26,11,ios,CBSE,undeclared,False
+427,2025-09-25,8,android,JEE,Boards,False
+428,2025-11-15,12,android,NEET,JEE,False
+429,2025-06-10,12,android,NEET,NEET,False
+430,2025-10-14,12,android,ICSE,NEET,False
+431,2025-02-20,10,android,NEET,undeclared,False
+432,2025-10-24,9,android,CBSE,NEET,False
+433,2025-06-25,11,ios,ICSE,undeclared,False
+434,2025-04-07,12,ios,CBSE,Boards,False
+435,2025-03-03,11,android,CBSE,undeclared,False
+436,2025-07-06,12,android,JEE,Boards,False
+437,2025-09-06,10,android,CBSE,NEET,False
+438,2025-09-15,12,web,NEET,Boards,True
+439,2025-02-16,9,web,JEE,Boards,False
+440,2025-04-08,10,android,State Board,Boards,False
+441,2025-10-10,12,android,ICSE,JEE,False
+442,2025-11-15,12,android,State Board,JEE,False
+443,2025-10-08,12,web,CBSE,undeclared,False
+444,2025-02-26,10,web,CBSE,undeclared,False
+445,2025-01-19,11,android,CBSE,JEE,False
+446,2025-03-07,10,android,JEE,JEE,False
+447,2025-09-18,11,android,State Board,undeclared,False
+448,2025-03-05,11,web,CBSE,JEE,False
+449,2025-11-27,12,android,JEE,undeclared,False
+450,2025-02-02,11,android,NEET,Boards,False
+451,2025-11-10,7,web,JEE,undeclared,False
+452,2025-05-27,11,android,ICSE,NEET,False
+453,2025-08-10,12,ios,State Board,NEET,False
+454,2025-07-15,11,ios,NEET,JEE,False
+455,2025-12-23,8,android,ICSE,Boards,False
+456,2025-02-09,11,ios,JEE,Boards,False
+457,2025-02-16,9,android,ICSE,JEE,False
+458,2025-03-20,9,web,CBSE,NEET,False
+459,2025-01-14,11,android,CBSE,Boards,True
+460,2025-04-20,6,android,CBSE,JEE,False
+461,2025-11-03,12,ios,JEE,JEE,False
+462,2025-04-22,10,android,JEE,JEE,False
+463,2025-12-19,11,web,ICSE,Boards,False
+464,2025-05-01,8,android,ICSE,NEET,False
+465,2025-10-22,12,ios,JEE,NEET,False
+466,2025-01-19,12,web,CBSE,Boards,False
+467,2025-02-25,9,android,JEE,Boards,True
+468,2025-05-17,10,android,ICSE,JEE,False
+469,2025-11-09,12,android,CBSE,NEET,False
+470,2025-01-19,11,ios,ICSE,Boards,False
+471,2025-10-27,11,web,JEE,undeclared,False
+472,2025-02-03,8,web,CBSE,Boards,False
+473,2025-08-14,6,android,CBSE,NEET,False
+474,2025-10-22,6,android,JEE,NEET,False
+475,2025-09-06,11,web,JEE,NEET,False
+476,2025-10-23,9,android,NEET,NEET,False
+477,2025-04-22,12,web,State Board,NEET,False
+478,2025-09-27,11,android,JEE,Boards,False
+479,2025-11-02,10,android,ICSE,JEE,False
+480,2025-09-11,10,android,CBSE,Boards,False
+481,2025-09-04,10,android,ICSE,NEET,False
+482,2025-05-13,11,android,CBSE,undeclared,False
+483,2025-07-27,11,android,ICSE,JEE,False
+484,2025-04-22,12,android,CBSE,JEE,False
+485,2025-03-15,8,android,NEET,NEET,False
+486,2025-11-07,12,android,State Board,NEET,False
+487,2025-12-20,11,web,State Board,JEE,False
+488,2025-02-21,10,android,CBSE,Boards,False
+489,2025-05-02,11,android,NEET,undeclared,False
+490,2025-04-18,10,android,CBSE,JEE,False
+491,2025-08-10,9,web,JEE,NEET,False
+492,2025-04-23,8,android,JEE,NEET,False
+493,2025-09-01,12,web,JEE,Boards,False
+494,2025-07-20,9,android,CBSE,NEET,False
+495,2025-07-23,9,web,State Board,Boards,False
+496,2025-10-18,12,android,NEET,JEE,False
+497,2025-06-14,9,web,State Board,JEE,True
+498,2025-04-27,12,android,State Board,Boards,False
+499,2025-07-15,9,android,NEET,NEET,False
+500,2025-04-21,10,ios,State Board,undeclared,False
+501,2025-03-16,12,ios,JEE,undeclared,False
+502,2025-11-10,8,web,ICSE,undeclared,False
+503,2025-09-09,7,web,ICSE,Boards,False
+504,2025-10-16,12,android,ICSE,Boards,False
+505,2025-10-08,11,android,CBSE,NEET,False
+506,2025-12-05,9,android,State Board,JEE,False
+507,2025-10-20,11,web,CBSE,JEE,False
+508,2025-10-05,12,ios,CBSE,Boards,False
+509,2025-02-09,11,ios,NEET,Boards,False
+510,2025-02-28,10,android,ICSE,NEET,False
+511,2025-02-26,10,android,NEET,undeclared,False
+512,2025-07-27,12,android,CBSE,JEE,False
+513,2025-04-24,12,ios,CBSE,JEE,True
+514,2025-11-19,9,android,CBSE,undeclared,False
+515,2025-03-22,10,web,CBSE,NEET,False
+516,2025-09-05,11,web,JEE,NEET,False
+517,2025-08-16,8,web,JEE,NEET,False
+518,2025-09-18,11,android,JEE,JEE,False
+519,2025-02-13,12,web,JEE,Boards,False
+520,2025-02-11,12,android,ICSE,JEE,False
+521,2025-01-23,11,android,NEET,NEET,False
+522,2025-02-13,11,android,CBSE,Boards,False
+523,2025-04-25,12,android,CBSE,Boards,False
+524,2025-04-11,8,android,CBSE,undeclared,False
+525,2025-04-23,12,web,ICSE,undeclared,False
+526,2025-04-13,12,android,JEE,NEET,False
+527,2025-09-22,11,ios,CBSE,JEE,False
+528,2025-09-21,11,web,NEET,undeclared,False
+529,2025-01-16,9,android,NEET,Boards,False
+530,2025-05-05,10,web,JEE,NEET,False
+531,2025-10-19,9,android,ICSE,JEE,False
+532,2025-09-04,10,web,State Board,JEE,False
+533,2025-08-15,10,web,CBSE,Boards,False
+534,2025-04-15,9,android,JEE,Boards,False
+535,2025-11-05,11,android,NEET,JEE,True
+536,2025-07-21,9,android,CBSE,JEE,False
+537,2025-04-03,9,web,CBSE,NEET,False
+538,2025-04-09,6,android,ICSE,NEET,False
+539,2025-12-23,11,ios,CBSE,NEET,False
+540,2025-10-03,11,ios,CBSE,Boards,False
+541,2025-10-28,11,web,CBSE,JEE,False
+542,2025-03-18,12,android,CBSE,JEE,False
+543,2025-01-11,12,android,CBSE,NEET,False
+544,2025-01-25,9,ios,State Board,undeclared,False
+545,2025-04-18,12,ios,NEET,NEET,False
+546,2025-06-03,10,android,CBSE,JEE,True
+547,2025-11-22,11,android,CBSE,undeclared,False
+548,2025-02-08,12,web,JEE,undeclared,False
+549,2025-09-14,10,android,CBSE,JEE,False
+550,2025-09-25,12,ios,CBSE,undeclared,False
+551,2025-11-28,10,ios,CBSE,NEET,False
+552,2025-02-06,9,android,State Board,Boards,False
+553,2025-02-01,8,android,JEE,NEET,False
+554,2025-09-26,12,android,CBSE,Boards,True
+555,2025-07-12,7,android,NEET,NEET,False
+556,2025-03-05,10,android,CBSE,NEET,False
+557,2025-11-14,6,web,State Board,Boards,False
+558,2025-12-26,9,web,CBSE,undeclared,False
+559,2025-05-06,11,web,JEE,JEE,False
+560,2025-03-28,11,android,JEE,undeclared,False
+561,2025-07-22,12,web,State Board,undeclared,False
+562,2025-09-19,12,ios,CBSE,NEET,False
+563,2025-08-15,9,ios,JEE,JEE,False
+564,2025-04-15,12,android,CBSE,JEE,False
+565,2025-04-01,12,android,JEE,JEE,False
+566,2025-01-15,12,ios,CBSE,NEET,False
+567,2025-04-22,10,ios,CBSE,JEE,False
+568,2025-04-03,12,web,CBSE,Boards,False
+569,2025-08-12,10,ios,State Board,undeclared,False
+570,2025-04-10,10,ios,CBSE,Boards,False
+571,2025-02-14,11,android,CBSE,undeclared,False
+572,2025-03-15,11,android,CBSE,JEE,False
+573,2025-05-07,12,android,State Board,Boards,False
+574,2025-04-28,11,android,NEET,JEE,False
+575,2025-10-08,12,web,State Board,NEET,False
+576,2025-03-12,10,android,CBSE,Boards,False
+577,2025-02-23,10,web,CBSE,JEE,False
+578,2025-10-27,12,android,ICSE,undeclared,False
+579,2025-02-09,10,ios,NEET,Boards,False
+580,2025-01-28,12,android,CBSE,NEET,True
+581,2025-07-24,8,ios,CBSE,NEET,False
+582,2025-04-20,7,web,CBSE,NEET,False
+583,2025-03-27,9,android,NEET,undeclared,False
+584,2025-04-10,11,ios,NEET,NEET,False
+585,2025-04-08,10,ios,NEET,JEE,False
+586,2025-04-12,12,web,State Board,Boards,False
+587,2025-09-07,11,ios,CBSE,Boards,False
+588,2025-01-22,8,ios,JEE,undeclared,False
+589,2025-10-25,9,ios,CBSE,Boards,False
+590,2025-11-27,8,android,JEE,NEET,False
+591,2025-11-04,12,ios,NEET,NEET,False
+592,2025-10-21,11,ios,State Board,JEE,False
+593,2025-11-26,9,android,CBSE,undeclared,True
+594,2025-06-19,11,ios,JEE,undeclared,False
+595,2025-04-05,10,android,NEET,Boards,False
+596,2025-12-10,6,web,CBSE,Boards,False
+597,2025-07-14,10,android,NEET,undeclared,False
+598,2025-11-05,12,android,JEE,Boards,False
+599,2025-02-12,8,web,JEE,NEET,False
+600,2025-11-09,12,android,CBSE,JEE,False
+601,2025-08-09,11,ios,CBSE,Boards,False
+602,2025-01-16,12,web,CBSE,Boards,False
+603,2025-09-10,11,android,CBSE,NEET,False
+604,2025-10-11,10,ios,ICSE,JEE,False
+605,2025-01-15,9,android,JEE,NEET,False
+606,2025-09-05,10,web,JEE,Boards,False
+607,2025-03-08,9,android,NEET,JEE,False
+608,2025-07-24,9,android,State Board,JEE,False
+609,2025-10-13,8,web,CBSE,NEET,False
+610,2025-03-26,11,android,CBSE,NEET,False
+611,2025-09-03,9,android,CBSE,JEE,False
+612,2025-12-01,12,ios,CBSE,JEE,False
+613,2025-09-04,9,android,JEE,Boards,False
+614,2025-09-22,9,android,State Board,JEE,False
+615,2025-08-09,11,ios,CBSE,JEE,False
+616,2025-11-27,12,web,CBSE,JEE,False
+617,2025-09-12,11,web,CBSE,Boards,False
+618,2025-03-08,11,android,CBSE,Boards,False
+619,2025-03-20,10,web,ICSE,undeclared,False
+620,2025-05-18,11,web,CBSE,JEE,False
+621,2025-03-20,7,ios,State Board,NEET,False
+622,2025-09-03,10,ios,CBSE,Boards,False
+623,2025-03-15,11,android,NEET,JEE,False
+624,2025-03-10,12,ios,CBSE,JEE,False
+625,2025-10-04,9,android,CBSE,NEET,False
+626,2025-10-02,11,ios,CBSE,undeclared,False
+627,2025-03-16,12,web,State Board,Boards,False
+628,2025-02-08,11,ios,NEET,Boards,False
+629,2025-03-05,10,web,JEE,Boards,False
+630,2025-05-12,10,web,JEE,Boards,False
+631,2025-05-24,11,android,NEET,NEET,False
+632,2025-03-18,11,web,CBSE,undeclared,False
+633,2025-01-24,10,android,CBSE,Boards,False
+634,2025-04-14,10,web,CBSE,Boards,False
+635,2025-02-27,11,android,CBSE,JEE,False
+636,2025-09-14,9,ios,State Board,undeclared,False
+637,2025-07-09,8,android,CBSE,JEE,False
+638,2025-10-12,11,android,ICSE,undeclared,True
+639,2025-04-15,10,web,State Board,NEET,False
+640,2025-04-28,11,web,State Board,JEE,False
+641,2025-09-22,11,android,CBSE,undeclared,False
+642,2025-09-21,12,web,NEET,NEET,False
+643,2025-03-13,8,ios,CBSE,Boards,False
+644,2025-10-04,8,android,CBSE,Boards,False
+645,2025-02-27,11,android,CBSE,JEE,False
+646,2025-03-22,12,android,ICSE,JEE,False
+647,2025-04-21,11,ios,CBSE,JEE,False
+648,2025-08-01,9,android,State Board,Boards,False
+649,2025-09-11,10,android,JEE,Boards,False
+650,2025-09-05,8,android,ICSE,undeclared,False
+651,2025-04-07,11,android,JEE,JEE,False
+652,2025-11-25,8,ios,CBSE,NEET,False
+653,2025-10-19,9,android,ICSE,JEE,False
+654,2025-09-28,7,android,JEE,Boards,False
+655,2025-10-25,9,android,NEET,Boards,False
+656,2025-10-20,12,web,ICSE,NEET,False
+657,2025-06-28,10,android,State Board,undeclared,True
+658,2025-03-05,7,android,NEET,undeclared,False
+659,2025-12-26,7,web,ICSE,Boards,False
+660,2025-10-22,7,ios,CBSE,NEET,False
+661,2025-03-05,10,web,JEE,NEET,False
+662,2025-06-26,10,android,CBSE,NEET,True
+663,2025-03-19,11,ios,NEET,JEE,False
+664,2025-10-06,11,android,CBSE,undeclared,False
+665,2025-10-05,11,android,NEET,Boards,False
+666,2025-09-17,12,web,JEE,JEE,False
+667,2025-11-03,11,ios,CBSE,JEE,False
+668,2025-09-25,11,web,NEET,Boards,False
+669,2025-06-19,12,ios,JEE,JEE,False
+670,2025-03-17,11,android,CBSE,NEET,False
+671,2025-03-20,9,android,State Board,Boards,False
+672,2025-09-26,7,ios,ICSE,undeclared,True
+673,2025-11-22,12,android,JEE,JEE,False
+674,2025-09-15,11,android,CBSE,JEE,False
+675,2025-10-01,9,ios,CBSE,Boards,False
+676,2025-09-16,12,ios,CBSE,JEE,False
+677,2025-01-14,10,android,CBSE,JEE,False
+678,2025-09-16,12,android,JEE,JEE,False
+679,2025-11-15,10,web,State Board,NEET,False
+680,2025-08-03,12,web,NEET,JEE,False
+681,2025-10-05,7,android,State Board,NEET,False
+682,2025-01-09,12,web,State Board,JEE,False
+683,2025-10-19,10,android,CBSE,NEET,False
+684,2025-01-11,11,android,JEE,JEE,False
+685,2025-10-20,12,ios,NEET,JEE,False
+686,2025-08-15,11,ios,JEE,undeclared,False
+687,2025-09-14,11,web,NEET,NEET,False
+688,2025-11-23,10,android,JEE,undeclared,False
+689,2025-12-21,10,android,CBSE,undeclared,False
+690,2025-01-25,11,web,NEET,Boards,False
+691,2025-11-28,10,ios,JEE,NEET,False
+692,2025-09-15,8,android,JEE,Boards,False
+693,2025-03-14,9,android,JEE,Boards,False
+694,2025-02-15,11,android,JEE,undeclared,False
+695,2025-10-24,6,ios,JEE,Boards,False
+696,2025-04-14,12,web,JEE,NEET,False
+697,2025-08-09,8,ios,CBSE,undeclared,False
+698,2025-05-05,11,android,CBSE,JEE,False
+699,2025-09-16,7,ios,State Board,undeclared,False
+700,2025-10-27,9,web,State Board,JEE,False
+701,2025-11-14,9,web,State Board,JEE,False
+702,2025-02-24,11,web,ICSE,undeclared,False
+703,2025-11-05,10,android,State Board,undeclared,False
+704,2025-03-19,12,android,ICSE,JEE,False
+705,2025-02-18,9,android,CBSE,JEE,False
+706,2025-05-04,8,web,NEET,undeclared,False
+707,2025-03-28,9,ios,CBSE,JEE,False
+708,2025-02-25,8,android,ICSE,Boards,False
+709,2025-11-24,9,web,CBSE,NEET,False
+710,2025-08-10,8,android,ICSE,NEET,False
+711,2025-02-12,12,android,JEE,Boards,False
+712,2025-05-17,11,android,ICSE,JEE,False
+713,2025-05-22,10,web,CBSE,NEET,False
+714,2025-11-28,11,ios,JEE,Boards,False
+715,2025-11-28,10,android,NEET,undeclared,False
+716,2025-06-04,10,android,ICSE,Boards,False
+717,2025-04-19,10,web,ICSE,undeclared,False
+718,2025-03-14,10,android,NEET,JEE,False
+719,2025-06-25,12,android,JEE,Boards,False
+720,2025-09-20,11,android,JEE,NEET,False
+721,2025-03-18,8,ios,CBSE,JEE,False
+722,2025-12-22,9,web,CBSE,undeclared,True
+723,2025-04-09,11,android,ICSE,Boards,False
+724,2025-03-09,7,ios,NEET,Boards,True
+725,2025-03-10,11,android,CBSE,undeclared,False
+726,2025-09-12,9,android,State Board,Boards,False
+727,2025-02-28,12,android,ICSE,NEET,True
+728,2025-03-22,10,web,CBSE,JEE,False
+729,2025-10-05,9,web,ICSE,NEET,False
+730,2025-12-01,8,android,ICSE,Boards,False
+731,2025-01-17,12,android,NEET,JEE,False
+732,2025-11-14,9,android,JEE,Boards,False
+733,2025-08-06,11,android,CBSE,JEE,False
+734,2025-05-24,10,web,CBSE,JEE,False
+735,2025-08-19,9,android,NEET,JEE,False
+736,2025-04-02,9,android,ICSE,undeclared,False
+737,2025-09-25,12,android,NEET,JEE,False
+738,2025-01-22,11,web,ICSE,JEE,False
+739,2025-04-15,12,android,NEET,JEE,False
+740,2025-03-16,6,web,JEE,undeclared,False
+741,2025-11-14,11,ios,CBSE,undeclared,False
+742,2025-12-25,12,ios,CBSE,JEE,False
+743,2025-12-12,6,ios,NEET,Boards,False
+744,2025-03-10,10,android,CBSE,NEET,False
+745,2025-04-19,10,web,State Board,JEE,False
+746,2025-08-22,12,android,CBSE,JEE,False
+747,2025-03-08,8,web,ICSE,Boards,False
+748,2025-08-20,10,ios,NEET,Boards,False
+749,2025-01-07,12,web,NEET,JEE,False
+750,2025-11-07,9,ios,ICSE,NEET,False
+751,2025-03-25,12,web,CBSE,Boards,False
+752,2025-10-11,9,android,CBSE,NEET,False
+753,2025-06-16,8,ios,JEE,JEE,False
+754,2025-02-06,9,ios,ICSE,JEE,False
+755,2025-09-18,11,web,CBSE,Boards,False
+756,2025-11-17,12,web,JEE,Boards,False
+757,2025-10-22,10,android,CBSE,undeclared,False
+758,2025-12-03,8,ios,ICSE,JEE,False
+759,2025-01-24,9,android,JEE,Boards,False
+760,2025-08-01,11,android,CBSE,JEE,True
+761,2025-03-03,9,web,NEET,undeclared,False
+762,2025-01-19,12,android,CBSE,JEE,False
+763,2025-03-13,11,android,CBSE,Boards,False
+764,2025-06-14,11,android,NEET,undeclared,False
+765,2025-03-13,10,android,NEET,NEET,False
+766,2025-03-11,7,android,ICSE,undeclared,True
+767,2025-05-20,10,web,NEET,NEET,False
+768,2025-09-23,10,web,CBSE,undeclared,False
+769,2025-02-03,11,android,ICSE,NEET,False
+770,2025-02-04,11,web,JEE,Boards,False
+771,2025-09-19,10,android,JEE,undeclared,False
+772,2025-10-03,7,android,JEE,NEET,False
+773,2025-02-10,12,ios,ICSE,JEE,False
+774,2025-02-08,10,android,JEE,Boards,False
+775,2025-01-06,10,android,CBSE,undeclared,False
+776,2025-03-21,10,android,State Board,Boards,False
+777,2025-11-17,11,ios,State Board,JEE,False
+778,2025-04-25,12,web,JEE,Boards,False
+779,2025-10-24,12,android,JEE,NEET,False
+780,2025-10-21,12,android,NEET,Boards,False
+781,2025-10-08,10,android,State Board,JEE,False
+782,2025-04-09,10,android,CBSE,Boards,False
+783,2025-12-20,6,android,CBSE,undeclared,False
+784,2025-10-25,10,ios,CBSE,Boards,False
+785,2025-12-06,12,android,NEET,JEE,False
+786,2025-02-21,6,ios,JEE,Boards,False
+787,2025-04-25,12,android,JEE,JEE,False
+788,2025-05-19,11,android,CBSE,JEE,False
+789,2025-02-19,12,web,CBSE,NEET,False
+790,2025-03-20,6,ios,JEE,JEE,False
+791,2025-03-21,6,web,State Board,JEE,False
+792,2025-01-15,12,web,ICSE,JEE,False
+793,2025-01-15,11,android,CBSE,Boards,False
+794,2025-04-26,12,android,CBSE,Boards,False
+795,2025-03-02,12,android,CBSE,Boards,False
+796,2025-05-03,12,android,JEE,JEE,False
+797,2025-10-15,12,web,CBSE,JEE,False
+798,2025-11-12,12,android,ICSE,NEET,True
+799,2025-06-03,7,android,NEET,JEE,False
+800,2025-02-28,10,android,ICSE,Boards,False
+801,2025-02-20,11,web,NEET,JEE,False
+802,2025-01-15,9,android,ICSE,Boards,False
+803,2025-09-26,6,android,JEE,JEE,False
+804,2025-03-02,9,web,State Board,JEE,False
+805,2025-09-26,10,android,JEE,undeclared,False
+806,2025-04-07,12,android,CBSE,Boards,False
+807,2025-02-16,11,android,CBSE,undeclared,False
+808,2025-08-02,12,web,NEET,Boards,False
+809,2025-05-26,12,android,ICSE,Boards,False
+810,2025-03-11,10,android,JEE,undeclared,False
+811,2025-10-03,12,ios,NEET,Boards,False
+812,2025-12-06,6,web,CBSE,undeclared,False
+813,2025-11-23,9,android,NEET,JEE,True
+814,2025-10-15,8,android,State Board,Boards,False
+815,2025-09-20,10,ios,JEE,Boards,False
+816,2025-03-12,11,android,CBSE,Boards,False
+817,2025-03-13,11,android,JEE,Boards,False
+818,2025-01-11,7,android,JEE,undeclared,False
+819,2025-04-02,11,android,ICSE,undeclared,False
+820,2025-01-21,10,android,CBSE,JEE,False
+821,2025-03-11,11,android,JEE,JEE,False
+822,2025-08-22,11,web,CBSE,undeclared,False
+823,2025-08-09,11,android,CBSE,JEE,False
+824,2025-09-22,10,web,ICSE,JEE,False
+825,2025-10-20,9,android,JEE,undeclared,False
+826,2025-01-11,11,ios,State Board,JEE,False
+827,2025-08-22,9,android,JEE,Boards,False
+828,2025-08-12,6,ios,CBSE,Boards,False
+829,2025-11-21,10,android,CBSE,undeclared,False
+830,2025-10-13,11,android,ICSE,Boards,False
+831,2025-03-23,8,android,NEET,NEET,False
+832,2025-08-10,6,android,State Board,undeclared,False
+833,2025-08-21,11,android,JEE,NEET,False
+834,2025-02-27,10,android,CBSE,NEET,False
+835,2025-11-23,8,web,ICSE,Boards,False
+836,2025-04-24,12,ios,NEET,NEET,False
+837,2025-02-17,10,ios,JEE,NEET,False
+838,2025-09-22,11,android,JEE,Boards,False
+839,2025-09-12,12,web,ICSE,Boards,False
+840,2025-09-10,9,android,CBSE,NEET,True
+841,2025-02-07,12,android,CBSE,undeclared,False
+842,2025-01-25,10,ios,JEE,JEE,False
+843,2025-09-08,8,ios,JEE,JEE,False
+844,2025-03-05,12,android,ICSE,Boards,False
+845,2025-08-28,10,ios,State Board,undeclared,False
+846,2025-03-17,11,android,JEE,NEET,False
+847,2025-01-27,11,ios,ICSE,undeclared,False
+848,2025-04-17,10,android,NEET,Boards,False
+849,2025-05-11,11,android,NEET,NEET,True
+850,2025-12-20,12,android,CBSE,Boards,False
+851,2025-02-13,10,android,CBSE,Boards,False
+852,2025-04-06,11,web,ICSE,NEET,False
+853,2025-09-25,8,web,ICSE,NEET,False
+854,2025-11-06,10,ios,CBSE,undeclared,False
+855,2025-08-02,11,web,CBSE,NEET,False
+856,2025-04-22,11,android,CBSE,JEE,False
+857,2025-08-15,8,ios,CBSE,JEE,False
+858,2025-10-25,11,web,JEE,NEET,False
+859,2025-04-15,11,android,JEE,undeclared,False
+860,2025-08-08,9,android,CBSE,NEET,False
+861,2025-10-26,7,web,NEET,Boards,False
+862,2025-10-27,7,android,JEE,undeclared,False
+863,2025-12-22,9,web,CBSE,undeclared,False
+864,2025-07-15,8,ios,CBSE,NEET,False
+865,2025-10-10,11,web,JEE,NEET,False
+866,2025-10-17,12,android,State Board,JEE,False
+867,2025-04-06,9,android,ICSE,Boards,False
+868,2025-03-26,7,ios,State Board,NEET,False
+869,2025-08-28,10,android,NEET,undeclared,False
+870,2025-09-21,10,ios,JEE,undeclared,False
+871,2025-07-12,12,ios,ICSE,undeclared,False
+872,2025-03-04,11,android,JEE,Boards,False
+873,2025-03-17,7,ios,NEET,Boards,False
+874,2025-03-10,11,android,ICSE,JEE,False
+875,2025-07-06,9,android,CBSE,NEET,False
+876,2025-07-17,10,android,NEET,JEE,False
+877,2025-11-14,7,android,JEE,Boards,False
+878,2025-01-08,11,web,CBSE,JEE,False
+879,2025-11-12,9,android,JEE,JEE,False
+880,2025-02-14,12,android,CBSE,JEE,False
+881,2025-12-17,8,android,CBSE,NEET,False
+882,2025-08-13,11,web,CBSE,NEET,False
+883,2025-05-12,7,android,JEE,Boards,False
+884,2025-03-11,10,android,CBSE,NEET,False
+885,2025-04-27,7,web,JEE,Boards,False
+886,2025-10-11,10,android,CBSE,JEE,False
+887,2025-02-05,11,android,ICSE,undeclared,False
+888,2025-03-27,9,android,NEET,undeclared,True
+889,2025-04-27,12,web,CBSE,NEET,False
+890,2025-10-23,12,android,NEET,NEET,False
+891,2025-11-20,10,ios,NEET,undeclared,False
+892,2025-07-03,7,ios,CBSE,NEET,True
+893,2025-09-07,10,android,State Board,JEE,True
+894,2025-11-18,10,android,CBSE,undeclared,False
+895,2025-09-20,12,web,CBSE,NEET,False
+896,2025-08-04,10,android,ICSE,Boards,False
+897,2025-03-08,8,android,JEE,Boards,False
+898,2025-08-02,11,android,ICSE,Boards,False
+899,2025-10-21,9,ios,JEE,Boards,False
+900,2025-05-15,11,android,CBSE,JEE,False
+901,2025-06-27,11,android,CBSE,JEE,False
+902,2025-11-20,9,ios,CBSE,Boards,False
+903,2025-08-21,8,android,CBSE,Boards,False
+904,2025-01-08,10,android,State Board,JEE,False
+905,2025-10-10,12,ios,State Board,Boards,False
+906,2025-03-20,10,ios,State Board,Boards,False
+907,2025-08-19,9,android,CBSE,NEET,False
+908,2025-02-22,11,android,JEE,JEE,False
+909,2025-04-17,8,android,CBSE,JEE,False
+910,2025-10-03,12,android,JEE,Boards,False
+911,2025-05-18,12,android,CBSE,undeclared,False
+912,2025-12-17,11,ios,JEE,undeclared,False
+913,2025-03-13,11,android,State Board,JEE,False
+914,2025-11-02,12,android,CBSE,JEE,False
+915,2025-10-12,11,ios,CBSE,Boards,False
+916,2025-09-01,10,android,CBSE,undeclared,False
+917,2025-09-03,12,android,NEET,Boards,False
+918,2025-10-24,12,android,CBSE,Boards,False
+919,2025-05-04,11,android,JEE,NEET,False
+920,2025-03-24,11,ios,CBSE,NEET,False
+921,2025-10-05,9,ios,State Board,NEET,False
+922,2025-04-18,12,web,CBSE,undeclared,True
+923,2025-03-21,10,android,ICSE,JEE,False
+924,2025-11-25,10,web,State Board,NEET,False
+925,2025-11-23,12,ios,CBSE,Boards,False
+926,2025-07-06,11,android,JEE,Boards,False
+927,2025-02-03,8,android,NEET,undeclared,False
+928,2025-10-15,12,android,JEE,Boards,False
+929,2025-09-07,12,android,State Board,JEE,True
+930,2025-02-07,11,ios,CBSE,undeclared,True
+931,2025-04-11,7,ios,ICSE,undeclared,False
+932,2025-10-17,8,web,JEE,JEE,False
+933,2025-10-27,11,ios,ICSE,undeclared,False
+934,2025-09-09,11,android,NEET,Boards,False
+935,2025-04-21,10,web,NEET,JEE,True
+936,2025-09-12,12,android,State Board,Boards,False
+937,2025-10-02,9,android,State Board,JEE,False
+938,2025-12-11,10,android,CBSE,Boards,False
+939,2025-05-26,10,android,CBSE,Boards,False
+940,2025-12-13,12,android,JEE,JEE,False
+941,2025-05-13,9,android,JEE,Boards,False
+942,2025-09-06,10,ios,CBSE,undeclared,False
+943,2025-07-16,10,android,CBSE,Boards,False
+944,2025-11-26,10,ios,State Board,NEET,False
+945,2025-03-26,10,android,CBSE,NEET,False
+946,2025-02-14,6,web,NEET,Boards,False
+947,2025-05-20,8,android,NEET,undeclared,False
+948,2025-09-06,8,android,CBSE,NEET,False
+949,2025-03-11,11,android,CBSE,undeclared,False
+950,2025-10-11,7,android,CBSE,NEET,False
+951,2025-11-10,10,android,JEE,Boards,False
+952,2025-12-23,12,android,NEET,NEET,False
+953,2025-07-23,10,web,NEET,JEE,False
+954,2025-04-15,12,web,CBSE,Boards,False
+955,2025-04-28,6,android,CBSE,undeclared,True
+956,2025-03-20,12,android,CBSE,JEE,False
+957,2025-05-09,7,android,JEE,JEE,False
+958,2025-04-26,10,web,State Board,NEET,False
+959,2025-03-03,8,web,CBSE,JEE,False
+960,2025-09-13,10,android,NEET,JEE,False
+961,2025-10-26,8,android,State Board,JEE,False
+962,2025-11-06,11,android,State Board,JEE,False
+963,2025-10-05,8,web,CBSE,Boards,False
+964,2025-03-22,12,web,NEET,undeclared,False
+965,2025-07-02,9,android,ICSE,NEET,False
+966,2025-07-08,8,ios,CBSE,NEET,False
+967,2025-07-12,12,ios,JEE,JEE,False
+968,2025-03-19,7,android,ICSE,JEE,False
+969,2025-03-05,12,web,ICSE,JEE,True
+970,2025-02-12,10,web,CBSE,Boards,False
+971,2025-09-25,12,android,NEET,NEET,False
+972,2025-11-05,9,android,State Board,undeclared,False
+973,2025-04-13,11,web,CBSE,NEET,False
+974,2025-10-09,11,android,CBSE,Boards,False
+975,2025-03-04,10,android,CBSE,JEE,False
+976,2025-10-06,11,ios,JEE,NEET,True
+977,2025-02-13,9,android,NEET,JEE,False
+978,2025-09-04,12,android,JEE,JEE,False
+979,2025-04-09,10,android,JEE,JEE,False
+980,2025-11-07,7,android,CBSE,JEE,False
+981,2025-11-10,6,android,CBSE,NEET,False
+982,2025-07-16,8,web,CBSE,Boards,False
+983,2025-02-05,12,ios,JEE,JEE,False
+984,2025-04-15,12,android,ICSE,Boards,False
+985,2025-01-23,12,ios,JEE,undeclared,False
+986,2025-11-03,9,android,CBSE,Boards,False
+987,2025-06-28,10,android,State Board,NEET,False
+988,2025-10-22,10,web,JEE,Boards,False
+989,2025-10-03,10,android,NEET,NEET,False
+990,2025-10-10,12,ios,NEET,undeclared,False
+991,2025-05-28,10,android,ICSE,Boards,False
+992,2025-10-23,11,android,JEE,JEE,False
+993,2025-06-21,11,android,CBSE,Boards,False
+994,2025-05-12,9,web,NEET,undeclared,False
+995,2025-03-04,10,web,JEE,Boards,False
+996,2025-01-26,10,android,CBSE,JEE,False
+997,2025-08-26,12,android,JEE,undeclared,False
+998,2025-10-12,8,ios,JEE,Boards,False
+999,2025-02-12,12,ios,CBSE,Boards,False
+1000,2025-08-18,12,android,CBSE,undeclared,False
+1001,2025-11-03,10,android,State Board,NEET,False
+1002,2025-05-13,7,ios,NEET,JEE,False
+1003,2025-03-24,8,ios,JEE,Boards,False
+1004,2025-11-14,9,android,CBSE,Boards,False
+1005,2025-11-27,11,android,State Board,Boards,False
+1006,2025-02-05,11,android,CBSE,Boards,False
+1007,2025-02-21,10,android,JEE,Boards,False
+1008,2025-11-15,10,ios,State Board,Boards,False
+1009,2025-09-12,12,ios,CBSE,Boards,False
+1010,2025-07-27,11,android,JEE,NEET,False
+1011,2025-05-21,9,web,CBSE,JEE,False
+1012,2025-04-25,11,android,CBSE,Boards,False
+1013,2025-10-14,12,web,JEE,NEET,False
+1014,2025-01-28,6,android,CBSE,undeclared,False
+1015,2025-12-04,11,ios,ICSE,JEE,False
+1016,2025-05-10,11,ios,CBSE,NEET,False
+1017,2025-03-11,7,android,NEET,JEE,False
+1018,2025-02-08,11,ios,CBSE,Boards,False
+1019,2025-01-17,6,android,NEET,JEE,False
+1020,2025-01-28,10,web,CBSE,NEET,False
+1021,2025-04-07,10,ios,JEE,NEET,False
+1022,2025-12-18,8,android,CBSE,Boards,False
+1023,2025-03-21,12,web,JEE,Boards,False
+1024,2025-03-18,11,android,ICSE,Boards,False
+1025,2025-11-21,10,web,CBSE,NEET,False
+1026,2025-11-19,11,android,CBSE,NEET,False
+1027,2025-12-22,11,android,CBSE,JEE,False
+1028,2025-11-20,10,ios,CBSE,Boards,False
+1029,2025-04-19,11,android,JEE,Boards,False
+1030,2025-02-28,12,ios,State Board,Boards,True
+1031,2025-09-02,10,android,State Board,Boards,True
+1032,2025-03-25,10,android,NEET,NEET,False
+1033,2025-02-21,11,android,CBSE,NEET,False
+1034,2025-10-19,12,android,CBSE,JEE,False
+1035,2025-05-21,10,ios,CBSE,JEE,False
+1036,2025-11-21,12,web,CBSE,Boards,True
+1037,2025-10-21,10,web,CBSE,undeclared,False
+1038,2025-03-16,12,ios,ICSE,undeclared,False
+1039,2025-03-26,10,ios,NEET,undeclared,False
+1040,2025-03-10,12,ios,CBSE,NEET,False
+1041,2025-12-23,10,web,JEE,Boards,False
+1042,2025-03-15,10,web,ICSE,undeclared,False
+1043,2025-04-15,12,android,CBSE,Boards,False
+1044,2025-01-20,11,android,NEET,JEE,False
+1045,2025-04-28,9,android,CBSE,NEET,False
+1046,2025-08-24,7,ios,State Board,JEE,False
+1047,2025-07-12,11,android,NEET,NEET,False
+1048,2025-04-05,6,ios,JEE,JEE,False
+1049,2025-09-17,12,android,JEE,undeclared,False
+1050,2025-06-11,11,ios,State Board,NEET,False
+1051,2025-11-04,10,web,JEE,JEE,False
+1052,2025-11-08,10,android,JEE,NEET,False
+1053,2025-12-02,9,web,JEE,JEE,False
+1054,2025-04-13,11,android,ICSE,undeclared,False
+1055,2025-06-14,9,android,CBSE,Boards,False
+1056,2025-04-28,9,android,CBSE,undeclared,False
+1057,2025-06-27,12,android,CBSE,undeclared,False
+1058,2025-10-19,11,web,CBSE,JEE,False
+1059,2025-10-07,9,android,CBSE,JEE,False
+1060,2025-01-16,8,android,JEE,NEET,False
+1061,2025-05-15,12,android,NEET,undeclared,False
+1062,2025-11-10,11,android,ICSE,undeclared,False
+1063,2025-07-03,10,ios,State Board,undeclared,False
+1064,2025-08-17,10,android,State Board,JEE,False
+1065,2025-01-08,9,android,ICSE,undeclared,False
+1066,2025-07-12,11,android,CBSE,NEET,False
+1067,2025-12-10,9,android,CBSE,NEET,True
+1068,2025-01-27,12,android,JEE,undeclared,False
+1069,2025-12-16,12,web,CBSE,JEE,False
+1070,2025-09-01,11,android,CBSE,NEET,False
+1071,2025-07-14,11,web,CBSE,Boards,False
+1072,2025-06-09,10,android,State Board,undeclared,False
+1073,2025-07-25,11,android,JEE,Boards,False
+1074,2025-03-02,12,ios,ICSE,Boards,False
+1075,2025-06-19,10,android,ICSE,Boards,False
+1076,2025-03-12,12,ios,CBSE,undeclared,False
+1077,2025-09-03,9,android,CBSE,JEE,False
+1078,2025-11-15,11,android,State Board,Boards,False
+1079,2025-09-09,8,ios,State Board,Boards,False
+1080,2025-11-20,10,android,ICSE,NEET,False
+1081,2025-04-04,9,web,State Board,JEE,False
+1082,2025-07-04,12,web,ICSE,NEET,False
+1083,2025-01-26,11,android,NEET,JEE,False
+1084,2025-04-18,10,android,CBSE,NEET,False
+1085,2025-05-25,9,android,State Board,NEET,False
+1086,2025-09-20,11,web,CBSE,Boards,False
+1087,2025-08-17,11,android,JEE,JEE,False
+1088,2025-10-02,11,android,NEET,JEE,True
+1089,2025-02-11,10,android,CBSE,undeclared,False
+1090,2025-02-17,9,android,JEE,Boards,False
+1091,2025-09-20,9,android,CBSE,NEET,False
+1092,2025-12-05,9,android,ICSE,undeclared,False
+1093,2025-03-20,12,android,CBSE,NEET,False
+1094,2025-04-13,11,ios,State Board,undeclared,False
+1095,2025-01-24,11,android,CBSE,Boards,False
+1096,2025-04-19,10,android,JEE,Boards,False
+1097,2025-09-27,12,android,ICSE,Boards,False
+1098,2025-11-16,12,android,JEE,Boards,False
+1099,2025-06-10,8,ios,JEE,JEE,False
+1100,2025-09-01,10,ios,State Board,Boards,False
+1101,2025-04-22,11,android,CBSE,NEET,False
+1102,2025-06-14,9,android,CBSE,JEE,False
+1103,2025-02-26,8,web,State Board,Boards,False
+1104,2025-09-28,12,web,NEET,JEE,False
+1105,2025-07-01,12,ios,JEE,NEET,False
+1106,2025-03-09,6,ios,CBSE,NEET,False
+1107,2025-02-26,11,android,JEE,Boards,False
+1108,2025-06-19,8,android,State Board,Boards,False
+1109,2025-09-24,8,ios,State Board,undeclared,False
+1110,2025-02-16,7,android,CBSE,JEE,False
+1111,2025-10-21,9,android,State Board,Boards,False
+1112,2025-09-25,11,android,NEET,JEE,False
+1113,2025-11-05,10,web,CBSE,JEE,False
+1114,2025-12-08,6,ios,NEET,undeclared,False
+1115,2025-09-23,12,android,NEET,Boards,True
+1116,2025-05-01,8,ios,State Board,undeclared,False
+1117,2025-05-14,6,android,NEET,Boards,False
+1118,2025-09-23,7,android,ICSE,undeclared,False
+1119,2025-04-17,10,android,CBSE,undeclared,False
+1120,2025-09-16,10,android,JEE,Boards,False
+1121,2025-01-24,9,android,CBSE,Boards,False
+1122,2025-05-23,11,web,State Board,NEET,False
+1123,2025-05-07,7,ios,NEET,JEE,False
+1124,2025-03-22,12,web,CBSE,Boards,False
+1125,2025-01-13,8,web,NEET,Boards,False
+1126,2025-02-06,12,android,CBSE,Boards,False
+1127,2025-03-18,12,ios,CBSE,JEE,False
+1128,2025-01-12,7,ios,NEET,JEE,False
+1129,2025-08-28,11,web,CBSE,NEET,False
+1130,2025-08-21,9,android,NEET,Boards,False
+1131,2025-02-09,11,ios,CBSE,NEET,False
+1132,2025-09-07,8,ios,State Board,undeclared,False
+1133,2025-09-09,9,android,NEET,Boards,False
+1134,2025-10-08,12,ios,NEET,JEE,False
+1135,2025-12-10,12,android,JEE,NEET,False
+1136,2025-03-23,6,ios,CBSE,Boards,False
+1137,2025-02-23,9,android,State Board,JEE,False
+1138,2025-09-16,12,android,State Board,JEE,False
+1139,2025-10-26,9,android,JEE,Boards,False
+1140,2025-03-10,10,android,ICSE,undeclared,False
+1141,2025-11-22,9,android,JEE,JEE,False
+1142,2025-11-13,9,web,CBSE,Boards,False
+1143,2025-09-25,8,web,ICSE,undeclared,False
+1144,2025-02-10,10,android,CBSE,JEE,False
+1145,2025-02-23,8,android,NEET,JEE,True
+1146,2025-11-15,11,android,CBSE,JEE,False
+1147,2025-09-24,12,android,JEE,Boards,False
+1148,2025-05-07,11,ios,CBSE,JEE,False
+1149,2025-02-09,12,ios,NEET,undeclared,False
+1150,2025-09-23,11,ios,State Board,undeclared,False
+1151,2025-11-04,9,ios,CBSE,Boards,False
+1152,2025-04-19,10,ios,ICSE,NEET,False
+1153,2025-11-02,12,web,State Board,JEE,False
+1154,2025-11-17,11,android,CBSE,JEE,False
+1155,2025-01-08,11,ios,CBSE,Boards,False
+1156,2025-03-14,10,ios,CBSE,undeclared,False
+1157,2025-01-16,11,android,JEE,JEE,False
+1158,2025-03-25,12,android,NEET,undeclared,False
+1159,2025-07-18,9,ios,State Board,undeclared,False
+1160,2025-02-06,12,android,State Board,undeclared,False
+1161,2025-04-16,9,android,CBSE,undeclared,False
+1162,2025-05-07,7,android,State Board,Boards,False
+1163,2025-02-10,8,web,NEET,JEE,False
+1164,2025-06-21,7,android,JEE,undeclared,False
+1165,2025-03-25,12,android,NEET,Boards,False
+1166,2025-07-19,10,ios,CBSE,NEET,False
+1167,2025-10-24,12,android,NEET,NEET,False
+1168,2025-09-02,11,web,ICSE,Boards,False
+1169,2025-11-06,10,android,CBSE,JEE,False
+1170,2025-07-27,9,android,NEET,NEET,False
+1171,2025-04-02,8,web,State Board,undeclared,False
+1172,2025-08-13,12,android,CBSE,JEE,False
+1173,2025-09-06,10,android,CBSE,NEET,False
+1174,2025-08-28,10,ios,CBSE,undeclared,False
+1175,2025-05-02,9,android,JEE,undeclared,False
+1176,2025-06-19,9,web,JEE,NEET,True
+1177,2025-06-11,9,ios,ICSE,undeclared,False
+1178,2025-05-21,10,ios,State Board,undeclared,False
+1179,2025-06-16,11,ios,ICSE,JEE,False
+1180,2025-07-05,9,web,CBSE,undeclared,False
+1181,2025-02-15,11,android,CBSE,NEET,False
+1182,2025-02-26,11,android,NEET,JEE,False
+1183,2025-07-06,10,web,NEET,NEET,False
+1184,2025-08-21,7,web,JEE,JEE,False
+1185,2025-03-06,8,web,CBSE,Boards,False
+1186,2025-11-11,11,ios,JEE,Boards,True
+1187,2025-04-19,7,android,CBSE,undeclared,False
+1188,2025-03-07,11,ios,CBSE,JEE,False
+1189,2025-12-28,10,android,CBSE,undeclared,False
+1190,2025-10-13,10,android,CBSE,Boards,False
+1191,2025-01-17,8,android,NEET,Boards,False
+1192,2025-10-13,11,android,ICSE,Boards,False
+1193,2025-06-06,10,web,ICSE,Boards,False
+1194,2025-10-16,12,web,CBSE,undeclared,False
+1195,2025-03-08,12,android,NEET,undeclared,False
+1196,2025-08-13,12,android,CBSE,Boards,True
+1197,2025-02-25,11,android,State Board,JEE,False
+1198,2025-10-11,6,ios,State Board,Boards,False
+1199,2025-02-24,6,android,ICSE,NEET,False
+1200,2025-02-09,11,android,NEET,NEET,False
+1201,2025-02-23,11,android,State Board,Boards,False
+1202,2025-03-22,12,android,CBSE,Boards,False
+1203,2025-05-10,12,web,State Board,Boards,False
+1204,2025-02-22,12,android,JEE,Boards,False
+1205,2025-02-23,10,web,State Board,JEE,False
+1206,2025-02-23,9,web,CBSE,Boards,False
+1207,2025-09-10,11,android,NEET,JEE,False
+1208,2025-11-08,9,ios,State Board,JEE,False
+1209,2025-09-05,11,android,ICSE,JEE,False
+1210,2025-11-15,12,android,JEE,undeclared,False
+1211,2025-10-20,11,web,JEE,NEET,False
+1212,2025-10-23,10,android,ICSE,undeclared,False
+1213,2025-03-16,10,android,ICSE,Boards,False
+1214,2025-03-26,12,android,CBSE,JEE,False
+1215,2025-04-07,12,android,CBSE,NEET,False
+1216,2025-04-22,6,android,JEE,Boards,False
+1217,2025-03-28,10,web,ICSE,JEE,False
+1218,2025-01-17,10,ios,CBSE,Boards,False
+1219,2025-03-23,10,ios,CBSE,Boards,False
+1220,2025-11-19,11,android,State Board,JEE,False
+1221,2025-02-27,10,ios,CBSE,undeclared,False
+1222,2025-11-17,8,android,CBSE,JEE,False
+1223,2025-03-18,12,android,State Board,Boards,False
+1224,2025-09-11,11,ios,State Board,JEE,False
+1225,2025-10-15,7,android,CBSE,undeclared,False
+1226,2025-03-07,12,android,CBSE,JEE,False
+1227,2025-01-16,10,ios,JEE,JEE,False
+1228,2025-10-17,8,android,State Board,Boards,False
+1229,2025-10-02,10,android,CBSE,undeclared,False
+1230,2025-11-17,8,android,ICSE,Boards,False
+1231,2025-03-19,11,android,CBSE,JEE,False
+1232,2025-10-15,6,ios,NEET,JEE,False
+1233,2025-03-10,8,android,CBSE,NEET,False
+1234,2025-02-13,10,android,State Board,JEE,False
+1235,2025-07-01,7,ios,CBSE,undeclared,False
+1236,2025-04-19,11,ios,CBSE,JEE,False
+1237,2025-01-14,11,android,CBSE,undeclared,False
+1238,2025-02-03,12,ios,CBSE,JEE,False
+1239,2025-09-02,11,ios,NEET,undeclared,False
+1240,2025-02-03,8,android,NEET,JEE,False
+1241,2025-02-16,11,android,State Board,Boards,False
+1242,2025-01-14,12,android,CBSE,NEET,True
+1243,2025-10-05,10,android,ICSE,NEET,False
+1244,2025-02-24,12,android,ICSE,NEET,False
+1245,2025-02-14,12,ios,CBSE,NEET,False
+1246,2025-04-13,11,android,State Board,Boards,False
+1247,2025-04-13,11,web,JEE,JEE,False
+1248,2025-11-22,12,ios,JEE,undeclared,False
+1249,2025-10-28,12,android,JEE,Boards,False
+1250,2025-02-21,11,android,NEET,Boards,False
+1251,2025-04-04,10,android,CBSE,JEE,False
+1252,2025-03-18,11,ios,JEE,undeclared,False
+1253,2025-10-05,8,web,CBSE,undeclared,False
+1254,2025-09-08,11,web,CBSE,NEET,False
+1255,2025-08-25,10,web,CBSE,Boards,False
+1256,2025-03-10,11,android,ICSE,undeclared,True
+1257,2025-03-24,12,ios,NEET,Boards,False
+1258,2025-05-18,11,web,ICSE,undeclared,False
+1259,2025-11-08,8,android,State Board,NEET,False
+1260,2025-04-12,12,android,CBSE,Boards,False
+1261,2025-04-07,12,android,ICSE,Boards,False
+1262,2025-10-24,10,android,ICSE,Boards,False
+1263,2025-03-02,10,android,JEE,JEE,False
+1264,2025-01-14,12,ios,JEE,Boards,False
+1265,2025-02-01,11,android,JEE,NEET,False
+1266,2025-01-03,9,web,ICSE,NEET,False
+1267,2025-03-02,6,ios,JEE,Boards,False
+1268,2025-03-22,11,android,CBSE,NEET,False
+1269,2025-05-02,9,ios,JEE,undeclared,False
+1270,2025-09-02,7,android,State Board,Boards,False
+1271,2025-11-08,6,android,CBSE,Boards,False
+1272,2025-09-25,12,android,ICSE,undeclared,False
+1273,2025-05-02,7,android,CBSE,NEET,False
+1274,2025-10-10,11,android,CBSE,Boards,False
+1275,2025-03-24,11,android,State Board,undeclared,False
+1276,2025-11-19,6,ios,NEET,undeclared,False
+1277,2025-05-22,11,android,CBSE,JEE,False
+1278,2025-08-08,11,ios,NEET,JEE,False
+1279,2025-12-05,7,android,NEET,Boards,False
+1280,2025-11-17,9,android,CBSE,NEET,False
+1281,2025-01-10,11,web,CBSE,undeclared,False
+1282,2025-11-18,12,android,CBSE,Boards,False
+1283,2025-03-24,6,android,State Board,NEET,False
+1284,2025-07-21,10,android,State Board,Boards,False
+1285,2025-05-18,12,android,CBSE,JEE,False
+1286,2025-08-12,8,web,NEET,JEE,False
+1287,2025-10-22,11,web,State Board,Boards,False
+1288,2025-07-17,11,ios,CBSE,JEE,False
+1289,2025-08-14,9,android,NEET,JEE,False
+1290,2025-08-10,11,web,ICSE,JEE,False
+1291,2025-11-25,12,web,ICSE,NEET,False
+1292,2025-04-08,9,ios,ICSE,JEE,False
+1293,2025-10-10,9,ios,State Board,JEE,False
+1294,2025-10-05,7,android,CBSE,undeclared,False
+1295,2025-09-02,11,web,JEE,undeclared,False
+1296,2025-02-14,12,android,CBSE,Boards,False
+1297,2025-03-05,11,android,JEE,JEE,False
+1298,2025-09-09,10,web,ICSE,NEET,False
+1299,2025-12-21,11,android,ICSE,JEE,False
+1300,2025-10-15,8,android,CBSE,JEE,False
+1301,2025-02-03,9,android,ICSE,JEE,False
+1302,2025-09-27,12,ios,State Board,undeclared,False
+1303,2025-07-09,7,ios,NEET,Boards,False
+1304,2025-02-20,9,web,NEET,undeclared,False
+1305,2025-02-28,9,android,NEET,JEE,False
+1306,2025-10-26,12,android,NEET,NEET,False
+1307,2025-02-24,11,web,State Board,JEE,False
+1308,2025-08-07,9,ios,State Board,NEET,False
+1309,2025-06-28,9,web,State Board,JEE,False
+1310,2025-05-10,7,ios,JEE,JEE,False
+1311,2025-10-01,10,android,JEE,JEE,False
+1312,2025-12-07,11,android,CBSE,Boards,False
+1313,2025-02-04,9,android,CBSE,Boards,False
+1314,2025-05-25,10,ios,JEE,NEET,False
+1315,2025-02-08,11,android,CBSE,undeclared,False
+1316,2025-08-23,11,web,CBSE,NEET,False
+1317,2025-09-08,12,web,NEET,JEE,False
+1318,2025-10-25,10,android,CBSE,JEE,False
+1319,2025-10-15,10,android,ICSE,undeclared,False
+1320,2025-08-12,9,android,CBSE,undeclared,False
+1321,2025-07-12,11,ios,ICSE,undeclared,False
+1322,2025-04-16,8,android,JEE,undeclared,False
+1323,2025-02-26,12,ios,CBSE,JEE,False
+1324,2025-10-16,11,android,ICSE,Boards,False
+1325,2025-10-11,8,android,ICSE,Boards,False
+1326,2025-09-12,8,web,JEE,Boards,False
+1327,2025-09-02,10,android,JEE,Boards,False
+1328,2025-05-08,10,web,JEE,JEE,False
+1329,2025-03-01,12,ios,ICSE,undeclared,False
+1330,2025-11-19,10,web,State Board,Boards,False
+1331,2025-03-14,7,web,CBSE,JEE,False
+1332,2025-03-07,10,android,CBSE,JEE,False
+1333,2025-11-13,11,android,CBSE,Boards,False
+1334,2025-02-08,12,android,NEET,JEE,False
+1335,2025-02-21,10,web,CBSE,JEE,False
+1336,2025-07-11,12,ios,CBSE,Boards,False
+1337,2025-09-27,11,android,State Board,NEET,False
+1338,2025-02-24,6,android,ICSE,Boards,False
+1339,2025-08-16,12,android,JEE,undeclared,False
+1340,2025-03-24,11,ios,ICSE,undeclared,False
+1341,2025-05-06,11,ios,ICSE,NEET,False
+1342,2025-11-18,12,web,JEE,Boards,False
+1343,2025-11-18,7,android,NEET,undeclared,False
+1344,2025-03-02,10,android,ICSE,JEE,False
+1345,2025-08-27,12,android,NEET,NEET,False
+1346,2025-10-27,7,android,CBSE,undeclared,False
+1347,2025-02-25,10,android,State Board,NEET,False
+1348,2025-11-05,11,web,CBSE,JEE,True
+1349,2025-06-08,8,android,JEE,undeclared,False
+1350,2025-04-05,12,ios,CBSE,undeclared,False
+1351,2025-01-17,9,ios,CBSE,JEE,True
+1352,2025-03-02,10,web,JEE,undeclared,False
+1353,2025-10-22,9,android,CBSE,JEE,False
+1354,2025-04-16,12,web,CBSE,undeclared,False
+1355,2025-05-01,8,web,JEE,JEE,False
+1356,2025-01-18,9,ios,ICSE,undeclared,True
+1357,2025-10-01,10,android,JEE,NEET,False
+1358,2025-08-09,12,web,NEET,undeclared,False
+1359,2025-06-10,12,android,ICSE,NEET,False
+1360,2025-07-27,9,web,CBSE,JEE,True
+1361,2025-05-14,7,android,CBSE,NEET,False
+1362,2025-04-06,12,ios,ICSE,NEET,False
+1363,2025-06-04,12,android,CBSE,Boards,False
+1364,2025-09-08,8,android,State Board,undeclared,False
+1365,2025-03-17,10,android,State Board,undeclared,False
+1366,2025-04-12,12,android,CBSE,Boards,False
+1367,2025-11-13,12,android,JEE,undeclared,False
+1368,2025-12-13,8,android,JEE,JEE,False
+1369,2025-11-08,12,android,CBSE,JEE,False
+1370,2025-02-08,9,android,ICSE,Boards,False
+1371,2025-01-27,9,web,State Board,Boards,False
+1372,2025-09-21,10,ios,CBSE,undeclared,False
+1373,2025-07-21,7,web,State Board,JEE,False
+1374,2025-12-03,10,android,CBSE,Boards,False
+1375,2025-11-13,11,android,JEE,NEET,False
+1376,2025-03-02,10,android,CBSE,Boards,False
+1377,2025-11-23,12,android,CBSE,NEET,False
+1378,2025-07-16,12,android,ICSE,JEE,False
+1379,2025-06-21,10,web,State Board,NEET,False
+1380,2025-05-19,12,web,CBSE,NEET,False
+1381,2025-03-04,9,android,CBSE,Boards,False
+1382,2025-06-02,7,android,NEET,undeclared,False
+1383,2025-03-28,10,web,CBSE,JEE,False
+1384,2025-05-19,8,android,State Board,Boards,False
+1385,2025-09-02,12,android,CBSE,Boards,False
+1386,2025-09-22,6,android,JEE,Boards,False
+1387,2025-11-18,10,android,ICSE,JEE,False
+1388,2025-04-02,10,android,NEET,NEET,False
+1389,2025-08-28,12,web,JEE,JEE,False
+1390,2025-01-07,12,android,CBSE,undeclared,False
+1391,2025-10-25,12,android,ICSE,JEE,False
+1392,2025-12-27,10,android,JEE,Boards,False
+1393,2025-03-03,11,android,State Board,Boards,False
+1394,2025-06-19,8,web,ICSE,Boards,False
+1395,2025-07-27,9,ios,CBSE,NEET,False
+1396,2025-01-22,10,ios,NEET,Boards,False
+1397,2025-10-11,9,android,State Board,undeclared,False
+1398,2025-01-24,10,android,ICSE,JEE,False
+1399,2025-11-23,12,android,CBSE,JEE,False
+1400,2025-09-17,11,ios,State Board,NEET,False
+1401,2025-04-12,6,android,NEET,Boards,False
+1402,2025-03-14,10,android,CBSE,JEE,False
+1403,2025-07-03,9,web,CBSE,JEE,False
+1404,2025-10-25,12,android,CBSE,NEET,False
+1405,2025-08-20,11,web,State Board,Boards,False
+1406,2025-02-25,10,android,State Board,NEET,False
+1407,2025-05-21,11,android,JEE,Boards,False
+1408,2025-09-15,12,android,ICSE,Boards,False
+1409,2025-11-12,12,android,JEE,JEE,False
+1410,2025-06-13,10,ios,CBSE,JEE,False
+1411,2025-06-22,12,android,State Board,NEET,False
+1412,2025-11-13,8,web,CBSE,undeclared,False
+1413,2025-02-20,12,android,JEE,Boards,False
+1414,2025-03-08,11,android,ICSE,JEE,False
+1415,2025-07-03,10,android,JEE,JEE,False
+1416,2025-10-13,9,ios,JEE,Boards,False
+1417,2025-09-21,10,ios,ICSE,NEET,False
+1418,2025-02-13,6,ios,JEE,NEET,False
+1419,2025-04-04,7,web,JEE,JEE,False
+1420,2025-11-10,11,web,CBSE,JEE,False
+1421,2025-03-25,6,android,State Board,Boards,False
+1422,2025-05-05,7,android,CBSE,undeclared,False
+1423,2025-07-14,11,web,ICSE,JEE,False
+1424,2025-08-18,12,web,CBSE,Boards,False
+1425,2025-05-04,12,android,JEE,undeclared,False
+1426,2025-11-12,10,android,CBSE,NEET,True
+1427,2025-06-20,9,android,JEE,JEE,False
+1428,2025-02-11,11,web,JEE,Boards,False
+1429,2025-11-01,12,android,NEET,JEE,False
+1430,2025-09-13,11,ios,CBSE,NEET,False
+1431,2025-03-24,12,android,State Board,undeclared,False
+1432,2025-08-08,12,android,ICSE,NEET,False
+1433,2025-09-06,11,android,JEE,Boards,False
+1434,2025-03-06,7,web,ICSE,JEE,False
+1435,2025-02-10,10,web,ICSE,Boards,False
+1436,2025-07-05,10,web,NEET,JEE,False
+1437,2025-03-14,9,android,NEET,Boards,False
+1438,2025-08-10,12,ios,ICSE,Boards,False
+1439,2025-10-03,11,android,JEE,JEE,False
+1440,2025-11-08,11,android,NEET,undeclared,False
+1441,2025-11-16,10,android,JEE,JEE,False
+1442,2025-10-07,9,android,ICSE,NEET,False
+1443,2025-02-05,10,android,CBSE,Boards,False
+1444,2025-11-13,11,ios,NEET,undeclared,False
+1445,2025-11-20,12,android,CBSE,NEET,False
+1446,2025-05-28,12,web,CBSE,undeclared,False
+1447,2025-04-11,6,android,CBSE,Boards,False
+1448,2025-05-27,10,ios,State Board,Boards,False
+1449,2025-03-20,12,web,CBSE,Boards,False
+1450,2025-10-11,6,ios,State Board,JEE,False
+1451,2025-04-23,12,web,CBSE,undeclared,False
+1452,2025-05-11,11,android,CBSE,Boards,False
+1453,2025-10-13,9,android,JEE,JEE,False
+1454,2025-04-10,7,android,ICSE,NEET,False
+1455,2025-05-21,10,web,JEE,JEE,False
+1456,2025-08-19,12,android,CBSE,Boards,False
+1457,2025-03-11,11,android,CBSE,Boards,False
+1458,2025-10-27,11,android,CBSE,undeclared,False
+1459,2025-02-12,11,android,CBSE,NEET,False
+1460,2025-09-19,12,android,ICSE,NEET,False
+1461,2025-01-18,8,android,CBSE,undeclared,False
+1462,2025-01-25,12,web,CBSE,Boards,False
+1463,2025-02-24,12,android,CBSE,NEET,False
+1464,2025-11-23,12,android,JEE,NEET,False
+1465,2025-02-26,9,android,ICSE,Boards,False
+1466,2025-08-23,9,android,NEET,JEE,False
+1467,2025-04-28,9,web,State Board,Boards,False
+1468,2025-07-14,9,android,CBSE,Boards,False
+1469,2025-07-05,12,android,JEE,NEET,False
+1470,2025-11-08,9,android,ICSE,Boards,False
+1471,2025-02-05,10,android,ICSE,Boards,False
+1472,2025-11-26,12,web,State Board,JEE,False
+1473,2025-06-15,11,android,JEE,undeclared,False
+1474,2025-11-16,10,android,JEE,JEE,False
+1475,2025-02-18,11,ios,CBSE,Boards,False
+1476,2025-02-28,7,android,ICSE,Boards,False
+1477,2025-09-18,10,android,State Board,Boards,False
+1478,2025-05-12,10,android,State Board,JEE,True
+1479,2025-03-26,11,android,NEET,Boards,False
+1480,2025-03-21,7,android,State Board,Boards,False
+1481,2025-04-04,7,ios,JEE,NEET,False
+1482,2025-08-22,9,ios,State Board,JEE,False
+1483,2025-06-06,10,android,CBSE,undeclared,False
+1484,2025-09-02,11,android,CBSE,JEE,False
+1485,2025-06-21,9,ios,ICSE,NEET,False
+1486,2025-09-13,10,android,CBSE,Boards,False
+1487,2025-01-11,9,android,CBSE,JEE,False
+1488,2025-02-14,12,android,CBSE,JEE,False
+1489,2025-04-04,11,android,CBSE,Boards,False
+1490,2025-02-17,11,ios,CBSE,Boards,False
+1491,2025-11-18,11,android,CBSE,Boards,False
+1492,2025-03-19,12,ios,ICSE,JEE,False
+1493,2025-04-12,10,android,State Board,NEET,False
+1494,2025-04-25,10,web,JEE,Boards,False
+1495,2025-04-23,12,android,State Board,Boards,False
+1496,2025-05-12,10,ios,CBSE,undeclared,False
+1497,2025-04-16,10,android,ICSE,NEET,False
+1498,2025-10-14,11,android,State Board,Boards,False
+1499,2025-11-03,8,android,CBSE,Boards,False
+1500,2025-09-24,7,android,State Board,JEE,False
+1501,2025-08-10,11,web,CBSE,JEE,False
+1502,2025-11-26,12,android,CBSE,Boards,False
+1503,2025-08-16,12,web,CBSE,JEE,False
+1504,2025-01-04,12,android,CBSE,Boards,False
+1505,2025-04-23,10,android,JEE,Boards,False
+1506,2025-03-03,11,ios,JEE,Boards,False
+1507,2025-10-26,7,android,CBSE,Boards,False
+1508,2025-04-01,11,ios,ICSE,NEET,False
+1509,2025-02-21,9,android,JEE,undeclared,False
+1510,2025-09-26,6,ios,CBSE,undeclared,False
+1511,2025-09-24,12,android,JEE,NEET,False
+1512,2025-10-06,10,android,JEE,Boards,False
+1513,2025-07-11,11,ios,CBSE,Boards,False
+1514,2025-01-15,12,web,CBSE,undeclared,False
+1515,2025-01-13,10,android,CBSE,Boards,False
+1516,2025-09-06,8,ios,NEET,undeclared,False
+1517,2025-07-14,11,android,CBSE,JEE,False
+1518,2025-02-24,11,android,NEET,Boards,False
+1519,2025-02-07,9,web,NEET,undeclared,False
+1520,2025-03-14,12,android,CBSE,undeclared,False
+1521,2025-04-23,11,android,JEE,undeclared,False
+1522,2025-03-09,11,android,JEE,NEET,False
+1523,2025-03-26,10,android,State Board,NEET,False
+1524,2025-05-19,10,android,NEET,undeclared,False
+1525,2025-07-28,12,ios,CBSE,Boards,False
+1526,2025-10-12,11,web,ICSE,undeclared,False
+1527,2025-09-15,10,ios,CBSE,undeclared,False
+1528,2025-01-22,6,android,JEE,JEE,False
+1529,2025-02-17,10,android,ICSE,JEE,False
+1530,2025-08-11,11,android,CBSE,NEET,False
+1531,2025-10-20,7,android,CBSE,undeclared,False
+1532,2025-09-04,12,ios,JEE,NEET,False
+1533,2025-04-28,6,ios,NEET,Boards,False
+1534,2025-04-06,9,ios,JEE,undeclared,False
+1535,2025-07-23,12,ios,State Board,Boards,False
+1536,2025-01-20,11,ios,State Board,JEE,False
+1537,2025-02-22,12,android,JEE,NEET,False
+1538,2025-10-04,12,ios,CBSE,NEET,False
+1539,2025-11-04,7,web,CBSE,Boards,False
+1540,2025-03-23,11,android,JEE,NEET,False
+1541,2025-01-13,12,ios,JEE,NEET,False
+1542,2025-10-05,6,ios,NEET,Boards,False
+1543,2025-02-14,6,android,CBSE,NEET,False
+1544,2025-12-21,12,android,State Board,NEET,False
+1545,2025-11-21,11,web,CBSE,Boards,False
+1546,2025-07-06,8,android,ICSE,undeclared,False
+1547,2025-02-16,11,android,CBSE,undeclared,False
+1548,2025-02-06,11,web,CBSE,Boards,False
+1549,2025-06-15,11,android,NEET,NEET,False
+1550,2025-09-28,11,android,NEET,NEET,False
+1551,2025-03-01,8,ios,CBSE,NEET,False
+1552,2025-03-07,11,android,State Board,undeclared,False
+1553,2025-09-18,11,android,ICSE,Boards,False
+1554,2025-09-16,11,android,ICSE,JEE,False
+1555,2025-04-16,11,ios,CBSE,NEET,False
+1556,2025-07-27,6,android,NEET,undeclared,False
+1557,2025-11-06,10,android,State Board,JEE,False
+1558,2025-08-01,10,android,State Board,JEE,False
+1559,2025-10-08,11,android,ICSE,Boards,False
+1560,2025-03-09,6,web,CBSE,JEE,False
+1561,2025-02-10,6,android,State Board,NEET,False
+1562,2025-01-15,8,ios,State Board,JEE,False
+1563,2025-03-25,9,android,CBSE,NEET,False
+1564,2025-08-18,11,android,State Board,undeclared,False
+1565,2025-05-19,10,android,ICSE,Boards,False
+1566,2025-02-25,12,web,CBSE,Boards,False
+1567,2025-02-12,9,android,CBSE,undeclared,False
+1568,2025-11-25,10,ios,JEE,NEET,False
+1569,2025-10-24,11,android,CBSE,NEET,True
+1570,2025-01-07,11,web,ICSE,JEE,False
+1571,2025-06-04,10,ios,NEET,JEE,False
+1572,2025-03-21,10,android,CBSE,JEE,False
+1573,2025-04-10,7,android,CBSE,Boards,False
+1574,2025-01-02,12,android,CBSE,NEET,False
+1575,2025-07-12,12,android,State Board,undeclared,False
+1576,2025-01-03,11,ios,ICSE,Boards,False
+1577,2025-02-04,7,android,JEE,undeclared,False
+1578,2025-04-08,12,android,ICSE,NEET,False
+1579,2025-06-24,8,android,NEET,NEET,False
+1580,2025-11-12,12,ios,ICSE,JEE,False
+1581,2025-01-20,11,android,CBSE,undeclared,False
+1582,2025-06-06,12,android,NEET,NEET,False
+1583,2025-01-26,12,android,JEE,JEE,False
+1584,2025-05-07,9,ios,CBSE,JEE,False
+1585,2025-11-19,11,ios,CBSE,JEE,False
+1586,2025-02-09,9,web,State Board,Boards,False
+1587,2025-03-06,12,ios,JEE,NEET,False
+1588,2025-06-23,8,android,JEE,NEET,False
+1589,2025-04-19,10,ios,State Board,JEE,False
+1590,2025-03-28,8,ios,NEET,undeclared,False
+1591,2025-11-22,12,android,JEE,JEE,False
+1592,2025-01-05,11,ios,NEET,JEE,False
+1593,2025-08-26,12,android,CBSE,NEET,False
+1594,2025-11-02,6,android,CBSE,NEET,False
+1595,2025-07-28,12,ios,CBSE,undeclared,False
+1596,2025-09-23,8,web,NEET,Boards,False
+1597,2025-05-08,9,android,JEE,JEE,False
+1598,2025-10-11,12,ios,ICSE,Boards,False
+1599,2025-02-25,11,android,CBSE,NEET,False
+1600,2025-02-13,9,android,ICSE,undeclared,False
+1601,2025-08-19,11,ios,CBSE,undeclared,False
+1602,2025-01-21,10,ios,CBSE,Boards,False
+1603,2025-09-15,12,android,JEE,JEE,False
+1604,2025-11-26,12,android,JEE,NEET,False
+1605,2025-03-03,10,web,NEET,NEET,False
+1606,2025-10-24,10,web,CBSE,Boards,False
+1607,2025-10-12,10,ios,CBSE,JEE,False
+1608,2025-12-16,7,android,State Board,NEET,False
+1609,2025-05-01,12,android,CBSE,Boards,False
+1610,2025-02-28,8,ios,CBSE,undeclared,False
+1611,2025-10-24,8,android,State Board,Boards,False
+1612,2025-08-21,10,android,CBSE,NEET,False
+1613,2025-12-12,11,android,State Board,JEE,False
+1614,2025-08-26,6,android,CBSE,NEET,False
+1615,2025-10-07,10,android,NEET,Boards,False
+1616,2025-06-27,9,ios,JEE,NEET,False
+1617,2025-09-09,10,android,CBSE,JEE,False
+1618,2025-11-10,11,web,NEET,JEE,False
+1619,2025-07-19,12,android,JEE,undeclared,False
+1620,2025-08-28,12,android,CBSE,NEET,False
+1621,2025-10-11,12,web,ICSE,JEE,False
+1622,2025-10-25,11,android,ICSE,Boards,False
+1623,2025-04-04,10,android,State Board,Boards,True
+1624,2025-07-27,9,ios,CBSE,JEE,False
+1625,2025-03-04,9,ios,CBSE,Boards,False
+1626,2025-03-06,6,android,State Board,undeclared,False
+1627,2025-09-01,12,ios,State Board,NEET,False
+1628,2025-03-14,7,android,State Board,Boards,False
+1629,2025-12-23,8,ios,JEE,NEET,False
+1630,2025-03-21,6,android,State Board,NEET,False
+1631,2025-10-28,11,web,CBSE,undeclared,False
+1632,2025-10-09,9,ios,ICSE,NEET,False
+1633,2025-04-12,12,android,ICSE,NEET,False
+1634,2025-03-12,10,android,JEE,NEET,False
+1635,2025-09-21,12,web,ICSE,JEE,False
+1636,2025-02-13,9,android,NEET,JEE,False
+1637,2025-03-24,6,android,CBSE,undeclared,False
+1638,2025-04-08,8,android,State Board,Boards,False
+1639,2025-04-03,12,android,CBSE,JEE,False
+1640,2025-02-01,10,ios,CBSE,Boards,False
+1641,2025-09-03,9,android,State Board,NEET,False
+1642,2025-02-08,9,android,CBSE,NEET,False
+1643,2025-04-15,8,ios,CBSE,Boards,False
+1644,2025-10-23,11,ios,CBSE,JEE,True
+1645,2025-04-04,12,android,CBSE,undeclared,False
+1646,2025-07-14,11,android,CBSE,Boards,False
+1647,2025-02-16,9,android,NEET,Boards,False
+1648,2025-02-13,11,ios,NEET,Boards,False
+1649,2025-04-26,11,ios,CBSE,NEET,False
+1650,2025-10-11,11,android,JEE,undeclared,False
+1651,2025-05-10,12,web,CBSE,Boards,False
+1652,2025-10-25,12,android,State Board,Boards,False
+1653,2025-10-28,7,android,NEET,JEE,False
+1654,2025-09-22,6,ios,ICSE,Boards,False
+1655,2025-07-17,10,android,CBSE,Boards,False
+1656,2025-01-20,11,android,ICSE,NEET,False
+1657,2025-08-15,10,web,State Board,NEET,False
+1658,2025-07-07,12,android,CBSE,JEE,False
+1659,2025-10-05,12,ios,CBSE,JEE,False
+1660,2025-10-20,12,ios,JEE,JEE,False
+1661,2025-01-28,12,android,NEET,JEE,False
+1662,2025-07-04,9,android,CBSE,NEET,False
+1663,2025-04-04,10,android,CBSE,Boards,False
+1664,2025-06-13,9,web,NEET,undeclared,False
+1665,2025-02-14,8,ios,CBSE,NEET,False
+1666,2025-06-05,12,android,State Board,undeclared,False
+1667,2025-10-21,11,ios,NEET,NEET,False
+1668,2025-10-18,10,web,ICSE,NEET,False
+1669,2025-12-24,12,ios,CBSE,NEET,False
+1670,2025-09-25,12,web,CBSE,NEET,False
+1671,2025-03-01,12,android,State Board,Boards,False
+1672,2025-02-22,10,android,JEE,JEE,False
+1673,2025-07-07,12,android,CBSE,NEET,False
+1674,2025-02-17,12,android,NEET,Boards,False
+1675,2025-08-13,8,android,ICSE,Boards,False
+1676,2025-05-02,10,android,CBSE,Boards,False
+1677,2025-03-26,11,android,JEE,undeclared,False
+1678,2025-02-16,10,web,CBSE,Boards,False
+1679,2025-10-08,11,android,State Board,Boards,False
+1680,2025-12-20,11,ios,ICSE,undeclared,False
+1681,2025-05-01,10,web,JEE,Boards,False
+1682,2025-04-11,9,android,CBSE,Boards,False
+1683,2025-02-28,10,web,ICSE,NEET,False
+1684,2025-02-14,6,ios,JEE,Boards,False
+1685,2025-02-22,11,android,CBSE,JEE,False
+1686,2025-02-16,10,android,State Board,NEET,False
+1687,2025-12-25,9,ios,CBSE,undeclared,False
+1688,2025-05-19,9,android,CBSE,Boards,False
+1689,2025-03-09,9,android,JEE,NEET,False
+1690,2025-10-02,11,ios,State Board,JEE,False
+1691,2025-11-13,11,android,JEE,NEET,False
+1692,2025-04-21,8,ios,ICSE,undeclared,False
+1693,2025-12-25,12,web,CBSE,undeclared,False
+1694,2025-01-23,9,android,JEE,JEE,False
+1695,2025-11-21,9,android,ICSE,JEE,False
+1696,2025-12-20,11,android,JEE,Boards,False
+1697,2025-10-03,6,android,State Board,undeclared,False
+1698,2025-03-17,12,android,JEE,JEE,False
+1699,2025-03-26,12,android,ICSE,undeclared,False
+1700,2025-04-11,12,web,JEE,JEE,False
+1701,2025-02-21,10,android,CBSE,undeclared,False
+1702,2025-03-21,11,android,JEE,undeclared,False
+1703,2025-04-03,9,ios,NEET,Boards,False
+1704,2025-10-14,9,web,State Board,NEET,False
+1705,2025-07-28,10,android,CBSE,NEET,False
+1706,2025-09-08,6,android,NEET,Boards,False
+1707,2025-07-14,12,android,JEE,Boards,False
+1708,2025-11-20,10,android,State Board,NEET,False
+1709,2025-04-10,11,ios,NEET,Boards,False
+1710,2025-02-22,11,web,ICSE,NEET,False
+1711,2025-04-04,12,android,JEE,NEET,False
+1712,2025-10-05,11,android,JEE,Boards,True
+1713,2025-06-06,8,web,JEE,undeclared,False
+1714,2025-03-12,11,web,State Board,NEET,False
+1715,2025-11-26,10,android,CBSE,JEE,False
+1716,2025-02-09,7,ios,CBSE,NEET,False
+1717,2025-06-05,9,ios,State Board,JEE,False
+1718,2025-09-28,10,web,NEET,Boards,False
+1719,2025-10-04,12,android,ICSE,undeclared,False
+1720,2025-09-01,11,android,CBSE,Boards,False
+1721,2025-05-14,10,ios,State Board,JEE,False
+1722,2025-11-03,10,ios,CBSE,Boards,False
+1723,2025-03-19,10,web,State Board,JEE,False
+1724,2025-02-16,12,web,CBSE,JEE,False
+1725,2025-01-12,12,android,JEE,undeclared,False
+1726,2025-09-28,11,android,State Board,JEE,False
+1727,2025-03-12,11,android,CBSE,NEET,False
+1728,2025-08-25,12,web,ICSE,Boards,False
+1729,2025-07-19,12,android,CBSE,JEE,False
+1730,2025-03-04,10,android,CBSE,Boards,False
+1731,2025-04-17,9,android,CBSE,Boards,False
+1732,2025-11-28,10,android,CBSE,JEE,True
+1733,2025-08-08,10,android,CBSE,NEET,False
+1734,2025-10-12,11,ios,CBSE,JEE,True
+1735,2025-02-05,12,android,ICSE,JEE,False
+1736,2025-02-28,10,android,NEET,Boards,False
+1737,2025-04-26,6,web,CBSE,Boards,True
+1738,2025-03-24,11,android,CBSE,JEE,False
+1739,2025-07-08,10,ios,CBSE,JEE,False
+1740,2025-08-14,11,web,JEE,NEET,False
+1741,2025-03-11,12,web,CBSE,JEE,False
+1742,2025-10-03,11,ios,JEE,JEE,False
+1743,2025-11-04,12,android,JEE,NEET,False
+1744,2025-06-02,12,android,JEE,undeclared,False
+1745,2025-11-26,10,ios,CBSE,NEET,False
+1746,2025-03-02,11,android,CBSE,NEET,False
+1747,2025-04-03,8,ios,CBSE,NEET,False
+1748,2025-08-28,12,android,CBSE,JEE,False
+1749,2025-07-28,11,android,ICSE,JEE,False
+1750,2025-02-03,11,android,CBSE,JEE,False
+1751,2025-12-01,11,android,CBSE,JEE,False
+1752,2025-06-10,12,android,CBSE,JEE,False
+1753,2025-02-10,6,ios,JEE,undeclared,False
+1754,2025-03-08,12,ios,CBSE,NEET,False
+1755,2025-11-19,9,android,JEE,NEET,False
+1756,2025-04-25,8,web,CBSE,Boards,False
+1757,2025-08-24,8,web,CBSE,Boards,False
+1758,2025-09-25,10,android,NEET,JEE,False
+1759,2025-05-05,12,android,CBSE,Boards,False
+1760,2025-06-14,10,android,JEE,JEE,True
+1761,2025-09-18,12,android,ICSE,undeclared,True
+1762,2025-02-27,12,android,NEET,JEE,False
+1763,2025-09-01,9,android,NEET,NEET,False
+1764,2025-04-01,11,ios,ICSE,Boards,False
+1765,2025-11-13,7,web,CBSE,JEE,False
+1766,2025-03-24,10,ios,CBSE,NEET,False
+1767,2025-11-07,10,android,NEET,Boards,False
+1768,2025-01-08,6,android,JEE,undeclared,False
+1769,2025-01-02,11,web,CBSE,undeclared,False
+1770,2025-01-05,11,web,JEE,NEET,False
+1771,2025-06-03,12,android,CBSE,Boards,False
+1772,2025-09-08,8,android,CBSE,Boards,True
+1773,2025-01-17,11,web,State Board,Boards,False
+1774,2025-04-12,11,android,JEE,Boards,False
+1775,2025-11-24,12,android,JEE,JEE,False
+1776,2025-03-04,8,android,CBSE,NEET,False
+1777,2025-10-21,11,android,CBSE,NEET,False
+1778,2025-02-03,11,ios,JEE,NEET,False
+1779,2025-01-02,9,web,State Board,NEET,False
+1780,2025-11-05,8,android,JEE,JEE,False
+1781,2025-08-09,10,web,NEET,Boards,False
+1782,2025-12-26,11,ios,JEE,Boards,False
+1783,2025-02-27,11,ios,State Board,JEE,False
+1784,2025-08-11,10,android,NEET,NEET,False
+1785,2025-02-08,11,android,JEE,undeclared,False
+1786,2025-12-07,11,ios,CBSE,JEE,False
+1787,2025-08-25,10,android,CBSE,Boards,False
+1788,2025-04-05,11,android,State Board,NEET,False
+1789,2025-04-15,10,android,State Board,undeclared,False
+1790,2025-08-14,12,ios,State Board,JEE,False
+1791,2025-04-12,9,web,CBSE,Boards,False
+1792,2025-11-07,10,ios,State Board,Boards,False
+1793,2025-08-15,9,android,ICSE,JEE,False
+1794,2025-02-04,11,ios,NEET,Boards,False
+1795,2025-05-26,8,ios,CBSE,JEE,False
+1796,2025-04-27,11,android,NEET,Boards,False
+1797,2025-01-20,12,ios,JEE,Boards,False
+1798,2025-08-27,11,android,State Board,undeclared,True
+1799,2025-03-05,9,android,CBSE,NEET,False
+1800,2025-11-08,11,android,State Board,JEE,False
+1801,2025-09-13,12,android,NEET,NEET,False
+1802,2025-08-22,10,android,JEE,NEET,False
+1803,2025-03-27,9,android,CBSE,JEE,False
+1804,2025-09-01,7,android,NEET,JEE,False
+1805,2025-07-28,9,web,ICSE,NEET,False
+1806,2025-05-24,10,ios,CBSE,undeclared,False
+1807,2025-05-04,10,ios,ICSE,undeclared,False
+1808,2025-03-26,11,android,NEET,Boards,False
+1809,2025-05-04,8,android,State Board,JEE,False
+1810,2025-07-27,6,android,JEE,undeclared,True
+1811,2025-08-08,12,android,CBSE,NEET,False
+1812,2025-03-27,12,web,CBSE,JEE,False
+1813,2025-07-22,12,web,NEET,NEET,False
+1814,2025-02-21,10,android,JEE,JEE,False
+1815,2025-04-19,12,ios,ICSE,Boards,False
+1816,2025-03-27,11,ios,NEET,Boards,False
+1817,2025-04-03,10,android,CBSE,Boards,False
+1818,2025-09-21,8,android,State Board,JEE,False
+1819,2025-07-05,10,android,ICSE,Boards,False
+1820,2025-04-28,12,android,CBSE,undeclared,False
+1821,2025-02-11,11,ios,CBSE,Boards,False
+1822,2025-09-15,9,android,NEET,JEE,False
+1823,2025-04-19,12,android,JEE,NEET,False
+1824,2025-11-24,10,ios,State Board,undeclared,False
+1825,2025-04-01,12,android,JEE,undeclared,False
+1826,2025-12-14,12,android,JEE,Boards,False
+1827,2025-10-07,9,ios,JEE,JEE,False
+1828,2025-09-09,11,ios,CBSE,NEET,False
+1829,2025-10-05,10,android,State Board,Boards,False
+1830,2025-07-20,10,android,ICSE,NEET,True
+1831,2025-02-21,11,android,CBSE,NEET,False
+1832,2025-04-14,8,web,JEE,Boards,False
+1833,2025-12-16,12,ios,NEET,NEET,False
+1834,2025-03-09,12,web,CBSE,JEE,False
+1835,2025-03-14,9,web,CBSE,JEE,False
+1836,2025-01-26,9,android,NEET,Boards,False
+1837,2025-09-21,10,android,CBSE,Boards,False
+1838,2025-10-18,11,ios,CBSE,undeclared,False
+1839,2025-10-13,12,android,State Board,undeclared,False
+1840,2025-08-12,7,ios,State Board,Boards,False
+1841,2025-11-26,12,android,JEE,NEET,False
+1842,2025-08-19,7,android,JEE,Boards,False
+1843,2025-01-13,12,web,CBSE,NEET,False
+1844,2025-02-01,10,android,State Board,undeclared,False
+1845,2025-11-08,7,ios,JEE,JEE,False
+1846,2025-10-26,12,android,State Board,NEET,True
+1847,2025-10-02,10,android,State Board,NEET,False
+1848,2025-09-16,10,android,CBSE,NEET,False
+1849,2025-06-25,10,ios,JEE,Boards,False
+1850,2025-04-08,12,android,ICSE,JEE,False
+1851,2025-10-04,6,ios,CBSE,NEET,False
+1852,2025-02-08,10,android,CBSE,Boards,False
+1853,2025-10-27,10,android,JEE,Boards,False
+1854,2025-03-24,6,android,CBSE,JEE,False
+1855,2025-09-08,10,android,JEE,NEET,False
+1856,2025-02-26,10,android,JEE,JEE,False
+1857,2025-10-27,10,web,NEET,JEE,False
+1858,2025-03-06,11,ios,NEET,NEET,False
+1859,2025-11-19,11,android,JEE,Boards,False
+1860,2025-02-24,12,web,NEET,undeclared,False
+1861,2025-10-19,9,android,NEET,Boards,False
+1862,2025-04-23,8,android,NEET,JEE,True
+1863,2025-08-19,9,android,NEET,NEET,False
+1864,2025-10-19,7,web,ICSE,Boards,False
+1865,2025-03-27,9,web,JEE,NEET,False
+1866,2025-10-16,12,ios,CBSE,NEET,False
+1867,2025-04-06,11,ios,ICSE,Boards,False
+1868,2025-06-03,9,ios,State Board,NEET,False
+1869,2025-01-20,11,android,NEET,Boards,False
+1870,2025-11-17,12,ios,State Board,Boards,False
+1871,2025-02-11,8,android,State Board,JEE,False
+1872,2025-09-07,12,web,CBSE,undeclared,False
+1873,2025-03-11,11,web,ICSE,JEE,False
+1874,2025-08-26,11,android,NEET,Boards,False
+1875,2025-02-11,12,android,CBSE,undeclared,False
+1876,2025-03-05,9,ios,ICSE,undeclared,False
+1877,2025-07-05,6,android,JEE,NEET,False
+1878,2025-07-28,12,web,CBSE,NEET,False
+1879,2025-04-12,12,web,CBSE,Boards,False
+1880,2025-01-12,6,android,ICSE,NEET,False
+1881,2025-02-22,11,android,JEE,NEET,False
+1882,2025-07-04,10,android,JEE,JEE,False
+1883,2025-06-11,8,ios,NEET,JEE,False
+1884,2025-07-06,7,ios,CBSE,Boards,False
+1885,2025-11-14,12,android,JEE,NEET,False
+1886,2025-10-16,12,android,NEET,NEET,False
+1887,2025-03-06,12,android,NEET,JEE,False
+1888,2025-09-18,9,ios,CBSE,JEE,False
+1889,2025-06-20,8,android,CBSE,NEET,False
+1890,2025-04-08,6,web,NEET,NEET,False
+1891,2025-11-27,10,ios,CBSE,JEE,False
+1892,2025-04-10,9,android,State Board,Boards,False
+1893,2025-10-10,11,android,NEET,NEET,False
+1894,2025-04-24,12,web,State Board,Boards,False
+1895,2025-11-23,10,ios,State Board,JEE,True
+1896,2025-02-13,12,web,State Board,JEE,False
+1897,2025-11-25,8,android,JEE,undeclared,False
+1898,2025-04-02,11,android,CBSE,JEE,False
+1899,2025-09-11,11,android,CBSE,JEE,False
+1900,2025-03-20,10,android,ICSE,undeclared,False
+1901,2025-04-19,11,ios,JEE,undeclared,False
+1902,2025-02-16,10,android,JEE,JEE,False
+1903,2025-09-24,11,android,CBSE,Boards,False
+1904,2025-04-12,9,android,NEET,Boards,False
+1905,2025-02-06,10,ios,State Board,Boards,False
+1906,2025-11-03,10,web,CBSE,undeclared,False
+1907,2025-05-22,7,web,ICSE,undeclared,False
+1908,2025-08-11,10,ios,NEET,JEE,False
+1909,2025-04-09,9,android,CBSE,NEET,False
+1910,2025-12-23,8,android,CBSE,NEET,False
+1911,2025-09-09,8,web,NEET,Boards,False
+1912,2025-08-24,12,android,JEE,Boards,False
+1913,2025-04-13,12,android,JEE,Boards,True
+1914,2025-10-14,10,ios,State Board,NEET,False
+1915,2025-04-14,10,android,CBSE,JEE,False
+1916,2025-03-13,10,ios,NEET,JEE,False
+1917,2025-11-13,9,android,CBSE,JEE,False
+1918,2025-10-16,12,android,ICSE,NEET,False
+1919,2025-03-19,11,android,NEET,NEET,False
+1920,2025-04-22,10,android,CBSE,JEE,False
+1921,2025-09-15,6,ios,CBSE,JEE,False
+1922,2025-10-28,12,web,ICSE,JEE,False
+1923,2025-12-01,11,android,State Board,JEE,True
+1924,2025-03-04,12,ios,State Board,Boards,False
+1925,2025-04-06,10,android,ICSE,Boards,False
+1926,2025-04-06,10,ios,State Board,JEE,False
+1927,2025-03-18,8,ios,CBSE,Boards,False
+1928,2025-01-03,9,web,CBSE,NEET,False
+1929,2025-04-20,10,android,CBSE,JEE,False
+1930,2025-03-23,11,ios,JEE,Boards,False
+1931,2025-07-21,9,android,CBSE,JEE,True
+1932,2025-10-14,11,web,CBSE,Boards,False
+1933,2025-04-04,11,android,CBSE,JEE,False
+1934,2025-10-07,11,android,CBSE,Boards,False
+1935,2025-04-18,10,ios,ICSE,JEE,False
+1936,2025-04-24,11,web,CBSE,Boards,False
+1937,2025-08-22,11,android,CBSE,undeclared,False
+1938,2025-10-08,10,android,CBSE,NEET,False
+1939,2025-05-13,12,android,ICSE,undeclared,False
+1940,2025-10-27,11,android,NEET,Boards,False
+1941,2025-04-02,12,android,NEET,undeclared,False
+1942,2025-08-14,8,android,ICSE,NEET,False
+1943,2025-06-27,9,web,CBSE,JEE,False
+1944,2025-09-20,10,android,CBSE,JEE,False
+1945,2025-02-04,12,android,NEET,Boards,False
+1946,2025-02-06,12,web,CBSE,JEE,True
+1947,2025-10-03,8,ios,ICSE,Boards,False
+1948,2025-09-04,11,ios,CBSE,NEET,False
+1949,2025-03-13,6,android,State Board,Boards,False
+1950,2025-11-22,11,ios,CBSE,JEE,False
+1951,2025-03-21,10,android,ICSE,Boards,False
+1952,2025-08-06,9,android,State Board,JEE,False
+1953,2025-11-13,12,android,State Board,undeclared,False
+1954,2025-03-15,9,ios,NEET,undeclared,False
+1955,2025-10-15,12,android,CBSE,NEET,True
+1956,2025-09-08,10,android,State Board,NEET,False
+1957,2025-07-19,10,android,JEE,undeclared,False
+1958,2025-01-25,12,android,CBSE,Boards,False
+1959,2025-07-04,9,android,CBSE,JEE,False
+1960,2025-11-12,11,web,JEE,NEET,False
+1961,2025-08-14,12,android,CBSE,Boards,False
+1962,2025-07-19,12,ios,JEE,undeclared,False
+1963,2025-12-02,8,web,CBSE,Boards,False
+1964,2025-04-27,11,ios,ICSE,NEET,False
+1965,2025-06-18,11,ios,JEE,JEE,False
+1966,2025-09-16,12,android,JEE,Boards,False
+1967,2025-02-08,10,web,CBSE,undeclared,False
+1968,2025-10-03,6,web,CBSE,Boards,False
+1969,2025-02-28,12,web,CBSE,Boards,False
+1970,2025-07-17,10,web,ICSE,Boards,False
+1971,2025-11-17,11,web,CBSE,Boards,False
+1972,2025-02-22,10,android,JEE,NEET,False
+1973,2025-09-05,12,android,State Board,undeclared,False
+1974,2025-03-25,6,android,CBSE,undeclared,False
+1975,2025-08-06,9,android,CBSE,JEE,False
+1976,2025-08-26,7,android,ICSE,Boards,False
+1977,2025-01-02,10,ios,ICSE,undeclared,False
+1978,2025-03-22,11,web,NEET,JEE,False
+1979,2025-10-27,11,android,NEET,Boards,False
+1980,2025-01-27,8,ios,JEE,undeclared,False
+1981,2025-11-11,6,android,CBSE,Boards,False
+1982,2025-01-26,10,web,CBSE,JEE,False
+1983,2025-05-13,10,web,CBSE,Boards,False
+1984,2025-05-18,12,android,CBSE,JEE,False
+1985,2025-07-09,9,web,JEE,Boards,False
+1986,2025-11-28,7,android,State Board,undeclared,False
+1987,2025-04-23,12,android,CBSE,JEE,True
+1988,2025-10-17,8,android,JEE,undeclared,False
+1989,2025-03-04,12,android,CBSE,Boards,False
+1990,2025-05-05,9,android,CBSE,Boards,False
+1991,2025-02-19,11,ios,ICSE,JEE,False
+1992,2025-03-04,10,ios,NEET,Boards,False
+1993,2025-06-19,11,ios,ICSE,Boards,False
+1994,2025-02-26,11,ios,CBSE,Boards,False
+1995,2025-05-18,7,web,State Board,JEE,False
+1996,2025-09-14,9,android,NEET,undeclared,False
+1997,2025-11-21,10,ios,CBSE,undeclared,False
+1998,2025-10-20,11,android,CBSE,JEE,False
+1999,2025-02-06,10,android,ICSE,undeclared,False
+2000,2025-03-05,12,web,State Board,NEET,False
