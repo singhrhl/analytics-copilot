@@ -33,6 +33,13 @@ Table: events
   session_id    INTEGER, foreign key -> sessions.session_id
   event_type    TEXT (values: lesson_started, lesson_completed, quiz_submitted, video_completed, doubt_raised)
   timestamp     TIMESTAMP
+  
+  Note on data recency: This dataset contains session and event data for the
+period 2025-01-01 through 2025-12-28 only. There is no more recent data.
+When a question asks for a metric "today," "currently," or without specifying
+a date (e.g. "what's our DAU?"), interpret it as asking for the most recent
+calendar day that has data — compute this via SQL (e.g. using MAX(start_time)
+or a subquery), do not assume the literal current date.
 """
 
 # prompt to generate SQL
