@@ -10,6 +10,13 @@ def route_question(state: AgentState) -> dict:
     else -> check_ambiguity)."""
     return {}
 
+# decides whether the query requires retrieval or not
+def route_question_edge(state: AgentState) -> str:
+    """Conditional edge from route_question. Returns the name of the next node."""
+    if state.mode == "A" and needs_glossary(state.user_question):
+        return "retrieve_glossary"
+    return "check_ambiguity"
+
 # retrieval context from user input
 def retrieve_glossary_node(state: AgentState) -> dict:
     chunks = retrieve_glossary(state.user_question)
