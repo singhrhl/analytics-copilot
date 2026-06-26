@@ -57,7 +57,10 @@ def generate_sql_node(state: AgentState) -> dict:
         context += f"\n\nNOTE: A previous attempt failed for this reason: {state.retry_reason}\nPlease correct the issue and try again."
 
     sql = generate_sql_fn(question, context=context)
-    return {"generated_sql": sql}
+    return {
+        "generated_sql": sql,
+        "retry_count": state.retry_count + (1 if state.retry_reason else 0),
+    }
 
 # NODE: validates the SQL command before running
 def validate_sql_guard_node(state: AgentState) -> dict:
