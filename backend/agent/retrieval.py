@@ -1,6 +1,8 @@
 # agent/retrieval.py
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from agent.db import get_readonly_connection
+from agent.gemini_utils import call_with_backoff
+
 
 embeddings_model = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
 
@@ -20,7 +22,7 @@ def needs_glossary(question: str) -> bool:
     return False
 
 def retrieve_glossary(question: str, top_k: int = 2) -> list[dict]:
-    query_embedding = embeddings_model.embed_query(question)
+    query_embedding = call_with_backoff(embeddings_model.embed_query, question)
 
     conn = get_readonly_connection()
     cur = conn.cursor()

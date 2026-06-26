@@ -1,6 +1,7 @@
 # agent/graph.py
 from langgraph.graph import StateGraph, END
 from langgraph.checkpoint.memory import MemorySaver
+from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
 from agent.graph_state import AgentState
 from agent.nodes import (
     route_question,
@@ -81,5 +82,6 @@ def build_graph():
 
     graph.add_edge("respond", END)
 
-    checkpointer = MemorySaver()
+    serde = JsonPlusSerializer(allowed_msgpack_modules=[("agent.graph_state", "GlossaryChunk")])
+    checkpointer = MemorySaver(serde=serde)
     return graph.compile(checkpointer=checkpointer)

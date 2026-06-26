@@ -3,6 +3,7 @@ import os
 import psycopg2
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
+from agent.gemini_utils import call_with_backoff
 
 load_dotenv()
 
@@ -46,7 +47,7 @@ conn = psycopg2.connect(
 cur = conn.cursor()
 
 for entry in GLOSSARY_ENTRIES:
-    embedding = embeddings_model.embed_documents([entry["text"]])[0]
+    embedding = call_with_backoff(embeddings_model.embed_documents, [entry["text"]])[0]
     cur.execute(
         """
         INSERT INTO glossary (id, title, content, embedding)
