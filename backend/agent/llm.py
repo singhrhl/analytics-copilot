@@ -9,6 +9,7 @@ load_dotenv()
 
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
 
+# Schema Context for the llm
 SCHEMA_CONTEXT = """
 Table: users
   user_id          INTEGER, primary key
@@ -34,6 +35,7 @@ Table: events
   timestamp     TIMESTAMP
 """
 
+# prompt to generate SQL
 SQL_GEN_PROMPT = ChatPromptTemplate.from_messages([
     ("system", """You are a SQL generation assistant for a Postgres database.
 Given the schema below and additional context, write a single SELECT query
@@ -51,6 +53,7 @@ Additional context (if any):
 
 MAX_LLM_RETRIES = 3
 
+# Extracting text from response
 def extract_text(response) -> str:
     """Gemini/LangChain sometimes returns response.content as a list of content-part
     dicts instead of a flat string. Normalizes either shape to plain text."""
@@ -62,6 +65,7 @@ def extract_text(response) -> str:
         )
     return content
 
+# SQL generation
 def generate_sql(question: str, context: str = "") -> str:
     chain = SQL_GEN_PROMPT | llm
 
@@ -83,7 +87,7 @@ def generate_sql(question: str, context: str = "") -> str:
 
     raise RuntimeError(f"Gemini API failed after {MAX_LLM_RETRIES} attempts: {last_error}")
 
-# agent/llm.py — new function, alongside generate_sql
+# Checking Ambiguity
 AMBIGUITY_PROMPT = ChatPromptTemplate.from_messages([
     ("system", """You are checking whether a user's analytics question is clear enough
 to generate SQL for, or genuinely ambiguous given the context below.
@@ -104,3 +108,20 @@ def check_ambiguity_llm(question: str, context: str = "") -> bool:
     chain = AMBIGUITY_PROMPT | llm
     response = chain.invoke({"question": question, "context": context})
     return extract_text(response).strip().lower().startswith("ambig")
+
+# Clerification on user prompt if prompt flagged as ambiguous
+CLARIFICATION_PROMPT = ChatPromptTemplate.from_messages([
+    ("system", """The user's question was flagged as ambiguous based on the context below,
+which explains what's ambiguous about it. Write a short, direct clarifying question asking
+the user to specify which definition/option they mean. Do not explain why it's ambiguous —
+just ask the question naturally, the way a helpful analyst would.
+
+Context:
+{context}"""),
+    ("human", "{question}"),
+])
+
+def generate_clarification_question(question: str, context: str = "") -> str: 
+    chain = CLARIFICATION_PROMPT | llm
+    response = chain.invoke({"question": question, "context": context})
+    return extract_text(response).strip()
