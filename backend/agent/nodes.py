@@ -98,6 +98,15 @@ def retry_or_fail_edge(state: AgentState) -> str:
         return "fail"
     return "retry"
 
+# EDGE : re-examin the retry-fail-endge
+def guard_check_edge(state: AgentState) -> str:
+    """Conditional edge after validate_sql_guard_node.
+    If the guard rejected the SQL, fall through to the shared retry/fail decision.
+    If it passed, proceed to execution."""
+    if not state.sql_is_valid_syntax:
+        return retry_or_fail_edge(state)
+    return "execute_sql"
+
 # HELPER FUNC FOR RESPOND: final output answer structure
 def format_success_answer(state: AgentState) -> str:
     result = state.execution_result
