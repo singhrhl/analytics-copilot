@@ -51,6 +51,17 @@ Additional context (if any):
 
 MAX_LLM_RETRIES = 3
 
+def extract_text(response) -> str:
+    """Gemini/LangChain sometimes returns response.content as a list of content-part
+    dicts instead of a flat string. Normalizes either shape to plain text."""
+    content = response.content
+    if isinstance(content, list):
+        content = "".join(
+            part.get("text", "") if isinstance(part, dict) else str(part)
+            for part in content
+        )
+    return content
+
 def generate_sql(question: str, context: str = "") -> str:
     chain = SQL_GEN_PROMPT | llm
 
@@ -59,12 +70,7 @@ def generate_sql(question: str, context: str = "") -> str:
         try:
             response = chain.invoke({"schema": SCHEMA_CONTEXT, "context": context, "question": question})
             content = response.content
-            if isinstance(content, list):
-                content = "".join(
-                    part.get("text", "") if isinstance(part, dict) else str(part)
-                    for part in content
-                )
-            sql = content.strip()
+            sql = extract_text(response).strip()
             sql = re.sub(r"^```sql\s*|^```\s*|```$", "", sql, flags=re.MULTILINE).strip()
             return sql
         except Exception as e:
@@ -76,3 +82,25 @@ def generate_sql(question: str, context: str = "") -> str:
                 time.sleep(wait)
 
     raise RuntimeError(f"Gemini API failed after {MAX_LLM_RETRIES} attempts: {last_error}")
+
+# agent/llm.py — new function, alongside generate_sql
+AMBIGUITY_PROMPT = ChatPromptTemplate.from_messages([
+    ("system", """You are checking whether a user's analytics question is clear enough
+to generate SQL for, or genuinely ambiguous given the context below.
+
+A question is ambiguous ONLY if the context explicitly warns that the term has multiple
+competing definitions and instructs you to ask for clarification. Do not invent ambiguity
+that isn't called out in the context — most questions are clear.
+
+Context (if any):
+{context}
+
+Respond with EXACTLY one word: "clear" or "ambiguous". Nothing else."""),
+    ("human", "{question}"),
+])
+
+def check_ambiguity_llm(question: str, context: str = "") -> bool:
+    """Returns True if ambiguous, False if clear."""
+    chain = AMBIGUITY_PROMPT | llm
+    response = chain.invoke({"question": question, "context": context})
+    return extract_text(response).strip().lower().startswith("ambig")
