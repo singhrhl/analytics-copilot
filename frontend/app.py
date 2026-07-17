@@ -28,6 +28,31 @@ st.set_page_config(
 
 st.title("📊 Analytics Copilot")
 st.caption("Ask questions about your edtech platform data in plain English.")
+with st.sidebar:
+    st.header("📋 About this Dataset")
+    st.markdown("""
+    **Platform:** Edtech learning platform (synthetic data)  
+    **Period:** January – December 2025  
+    **Scale:** 2,000 users · 15,000 sessions · 40,000 events
+
+    **What you can ask about:**
+    - 📈 Daily/Monthly Active Users (DAU, MAU)
+    - 🔄 Retention (D1, D7, Curriculum)
+    - 🎯 Session goals (deep study, revision, quick quiz)
+    - 📚 Target exams (JEE, NEET, Boards)
+    - 👤 User segments (grade, device, curriculum)
+
+    **Example questions:**
+    - *What's our DAU?*
+    - *How many JEE students signed up in March?*
+    - *What's our D7 retention?*
+    - *How many deep study sessions happened last week?*
+
+    ---
+    ⚠️ This assistant answers questions using SQL against  
+    structured data only. It cannot answer general knowledge  
+    questions or explain concepts outside this dataset.
+    """)
 
 # ── Session state init ───────────────────────────────────
 if "messages" not in st.session_state:
