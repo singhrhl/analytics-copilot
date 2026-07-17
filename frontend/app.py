@@ -5,6 +5,25 @@ import uuid
 import streamlit as st
 from langgraph.types import Command
 
+# Meta-Question Gaurd
+META_KEYWORDS = [
+    "what is this", "what data", "what can you", "tell me about",
+    "what columns", "what tables", "what metrics", "what does",
+    "explain the", "describe the", "how does this work",
+    "what are you", "who are you", "what is the dataset",
+]
+
+META_RESPONSE = (
+    "I can only answer questions about the platform's usage data — "
+    "things like DAU, MAU, retention, session goals, and user segments. "
+    "Check the sidebar for example questions and what's available. "
+    "I can't explain concepts or answer questions about the assistant itself."
+)
+
+def is_meta_question(question: str) -> bool:
+    q = question.lower()
+    return any(kw in q for kw in META_KEYWORDS)
+
 # ── Path setup ───────────────────────────────────────────
 # Ensures agent/ is importable when Streamlit is launched from backend/
 # If you always run `cd backend && streamlit run ../frontend/app.py`, this is
@@ -83,51 +102,63 @@ if user_input:
     with st.chat_message("user"):
         st.markdown(user_input)
 
-    with st.chat_message("assistant"):
-        with st.spinner("Thinking..."):
+    # Guard: catch meta-questions before invoking the graph
+    if not st.session_state.awaiting_clarification and is_meta_question(user_input):
+        with st.chat_message("assistant"):
+            st.markdown(META_RESPONSE)
+        st.session_state.messages.append({
+            "role": "assistant",
+            "content": META_RESPONSE,
+            "data": None,
+        })
+        st.rerun()
+    
+    else:
+        with st.chat_message("assistant"):
+            with st.spinner("Thinking..."):
 
-            if st.session_state.awaiting_clarification:
-                # Resume the paused graph with the user's clarification answer
-                config = {"configurable": {"thread_id": st.session_state.thread_id}}
-                result = graph.invoke(Command(resume=user_input), config=config)
-                st.session_state.awaiting_clarification = False
+                if st.session_state.awaiting_clarification:
+                    # Resume the paused graph with the user's clarification answer
+                    config = {"configurable": {"thread_id": st.session_state.thread_id}}
+                    result = graph.invoke(Command(resume=user_input), config=config)
+                    st.session_state.awaiting_clarification = False
 
-            else:
-                # Fresh question — new thread ID
-                st.session_state.thread_id = str(uuid.uuid4())
-                config = {"configurable": {"thread_id": st.session_state.thread_id}}
-                result = graph.invoke(
-                    AgentState(user_question=user_input, mode="A"),
-                    config=config,
-                )
+                else:
+                    # Fresh question — new thread ID
+                    st.session_state.thread_id = str(uuid.uuid4())
+                    config = {"configurable": {"thread_id": st.session_state.thread_id}}
+                    result = graph.invoke(
+                        AgentState(user_question=user_input, mode="A"),
+                        config=config,
+                    )
 
-            # ── Handle interrupt (clarification needed) ──
-            if "__interrupt__" in result:
-                interrupt_val = result["__interrupt__"][0].value
-                st.markdown(interrupt_val)
-                st.session_state.awaiting_clarification = True
-                st.session_state.messages.append({
-                    "role": "assistant",
-                    "content": interrupt_val,
-                    "data": None,
-                })
+                # ── Handle interrupt (clarification needed) ──
+                if "__interrupt__" in result:
+                    interrupt_val = result["__interrupt__"][0].value
+                    st.markdown(interrupt_val)
+                    st.session_state.awaiting_clarification = True
+                    st.session_state.messages.append({
+                        "role": "assistant",
+                        "content": interrupt_val,
+                        "data": None,
+                    })
 
-            # ── Handle final result ──────────────────────
-            else:
-                answer = result.get("final_answer", "No answer returned.")
-                data = result.get("execution_result")
+                # ── Handle final result ──────────────────────
+                else:
+                    answer = result.get("final_answer", "No answer returned.")
+                    data = result.get("execution_result")
 
-                # Only show dataframe for multi-row results
-                show_data = data and len(data) > 1
+                    # Only show dataframe for multi-row results
+                    show_data = data and len(data) > 1
 
-                st.markdown(answer)
-                if show_data:
-                    st.dataframe(data)
+                    st.markdown(answer)
+                    if show_data:
+                        st.dataframe(data)
 
-                st.session_state.messages.append({
-                    "role": "assistant",
-                    "content": answer,
-                    "data": data if show_data else None,
-                })
+                    st.session_state.messages.append({
+                        "role": "assistant",
+                        "content": answer,
+                        "data": data if show_data else None,
+                    })
 
-    st.rerun()
+        st.rerun()
