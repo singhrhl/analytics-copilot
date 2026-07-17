@@ -13,3 +13,5 @@ langgraph-checkpoint==4.1.1
 pydantic
 streamlit
 requests
+uvicorn
+fastapi
