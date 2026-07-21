@@ -1,6 +1,7 @@
 import uuid
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from typing import Literal
 from langgraph.types import Command
 
 from agent.graph import build_graph
@@ -25,7 +26,7 @@ graph = build_graph()
 # ── Request/response models ──────────────────────────────
 class QueryRequest(BaseModel):
     question: str
-    mode: str = "A"
+    mode: Literal['A','B'] = 'A'
 
 class ClarifyRequest(BaseModel):
     answer: str
